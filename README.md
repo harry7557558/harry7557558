@@ -32,7 +32,7 @@ Most of my repositories are collections of code instead of individual projects.
 An "about me" can be found in this
 [essay from a grade-school English course](https://docs.google.com/document/d/1kPZR1pcpAQbeRbjvexFIa1hHDHlmzMwx9m2K0_GtyqI/preview),
 which initially received a below-average grade ⁉.
-[This page](https://harry7557558.github.io/dall-e/index.html)
+[This page](https://harry7557558.github.io/harry7557558/dall-e/index.html)
 may show you my fascinations other than programming 🐚🔮🌊.
 The final thing to note is that
 [**harry7557558**](https://harry7557558.github.io/) is not a "normal" human being 🤖.
