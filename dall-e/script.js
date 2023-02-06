@@ -719,6 +719,29 @@ const OBJECTS = [
         "date": "12/30/2022",
         "text": "🍒🐠🌉🔮",
         "comment": "I was intentionally imagining something this time. I thought about a suspension bridge inside a crystal ball with fish surrounding it. DALL-E was thinking about something else, but the result is still not disappointing."
+    },
+    {
+        "original": "https://cdn.discordapp.com/attachments/989936230470934558/1061808027210092664/craiyon_191117_a_typical_2010s_animated_CGI_female_character.png",
+        "date": "01/08/2023",
+        "text": "a typical 2010s animated CGI female character",
+        "comment": "I was talking in a chat about Disney/Pixar female characters having \"huge eyes, tiny noses, and round faces.\" Seems like DALL-E likes realism more than abstraction, and the subsurface scattering of skins is more obvious, although the appearance of the characters is less diverse."
+    },
+    {
+        "original": "https://cdn.discordapp.com/attachments/989936230470934558/1064962157256646736/craiyon_123824_a_giant_ocean_wave_frozen_in_still__award_winning_photography.png",
+        "date": "01/17/2023",
+        "text": "a giant ocean wave frozen in still, award-winning photography"
+    },
+    {
+        "original": "https://cdn.discordapp.com/attachments/989936230470934558/1072123883190235168/craiyon_065502_a_man_typing_on_his_laptop_inside_a_rusty_cage_at_the_bottom_of_a_dark_swimming_pool_.png",
+        "date": "02/06/2023",
+        "text": "a man typing on his laptop inside a rusty cage at the bottom of a dark swimming pool, composite photography",
+        "comment": "A weird thought that comes into my mind randomly these days. Possibly the result of some mental illness."
+    },
+    {
+        "original": "https://cdn.discordapp.com/attachments/989936230470934558/1072123883764863006/craiyon_065514_a_man_typing_on_his_laptop_inside_the_confinement_of_a_rusty_cage_at_the_bottom_of_da.png",
+        "date": "02/06/2023",
+        "text": "a man typing on his laptop inside the confinement of a rusty cage at the bottom of dark water, composite photography",
+        "comment": "A weird thought that comes into my mind randomly these days. Possibly the result of some mental illness."
     }
 ];
 
