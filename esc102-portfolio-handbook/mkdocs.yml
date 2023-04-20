@@ -1,1 +1,6 @@
 site_name: Engineering Portfolio & Handbook - Harry Chen
+theme:
+    name: mkdocs
+    custom_dir: theme/
+markdown_extensions:
+  - md_in_html

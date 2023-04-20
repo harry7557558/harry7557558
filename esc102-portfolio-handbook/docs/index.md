@@ -7,6 +7,8 @@
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
+https://www.mkdocs.org/getting-started/
+
 * `mkdocs new [dir-name]` - Create a new project.
 * `mkdocs serve` - Start the live-reloading docs server.
 * `mkdocs build` - Build the documentation site.
@@ -20,7 +22,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
  - Overview
 
 ## [About Me](about-me)
- - My Position and Bias
+ - Overview
  - Engineering Design: An Optimization Problem
  - Values and Skills
  - Weaknesses
