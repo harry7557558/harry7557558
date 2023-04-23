@@ -1,7 +1,7 @@
 # About Me
 --------
 
-This is where you can find an overview of my position: my belief and bias, my unique understanding of engineering design process, my values and skills, as well as my weaknesses and how I overcome them. I tried to support most of these with arguments and evidences, but I found they can be sometimes easier to follow and understand if I just state them, and I include some visuals to help understanding.
+This is where you can find an overview of my position: my belief and bias, my unique understanding of engineering design process, my values and skills, as well as my weaknesses and how I overcome them. I tried to support most of these with arguments and evidences, but I found they can be sometimes easier to follow and understand if I just state them, so I decided to leave supporting evidence to later parts of this document.
 
 If you are a member of the ESC102 teaching team, you may have already be familiar with me through various ways including but not limited to my submitted assignments and tutorial activites, and I hope this can help you see a process of how I struggled to understand myself and engineering design. If you are just a visitor from the internet who scrolled to this page, I just want to show you that I'm not a "normal" human to be treated "normally", as well as present some of my unique understandings.
 
@@ -64,20 +64,50 @@ However,
  - Iterative design: gradient descent
  - Judgement before testing to save effort
 
+
 ## Values and Skills
+
+I consider myself to have several strong areas that have committed to my success in individual work. Here I describe my strong intuition, strong motivation, and self-reflection.
+
+**Strong intuition.** I was born with a strong intuition and common sense for the physical world and technical areas. This made me understand how things work easily, both theoretically and empirically; and after I understand how things work, I can easily tell potential benefits and issues of a technique or approach and how to reduce issues. This intuition has contributed significantly to my independent projects and problem-solving activities. My intuition also made me learn new things fast and easily become comfortable with a tool someone else created, even if there is little documentation, which made me quickly learn tools ranging from hand tool to household appliances to CAD software to programming interfaces.
+
+**Strong motivation.** I am enthuasiastic in numerous areas of STEM. I like trying and testing the result of techniques by my own hand, but I don't reject theoretical understanding and divergent thinking activities. While my activity is mostly limited to software due to material restriction, previous experiences have shown I enjoy activites related to mechatronics and chemistry when I get better conditions. My enthuasiasm not only made me spend most of my spare time exploring STEM (like mentioned previously), but also made me maintain my interest throughout a number of school projects.
+
+**Self reflection.** I consider myself a reflective person. When I feel I need a break from STEM activities, I often start reflecting on myself without intention. I often come out with unique understanding of things and insights into my previous failure experiences, which can be helpful applying suitable techniques and avoiding similar failures from happening again. One example of a result of my reflection is the understanding of engineering design as an optimization problem.
+
  - Strong intuition: understanding, learning, analyzing, using things
  - Reflective: identify the causes of failure and success
  - Concentration without distraction
 
+
 ## Weaknesses
- - Values and skills can correspond to weakness
- - Enthuasiasm -> overlook important things, hand on without through research
- - Strong intuition -> not rigorously and systematically
- - Reflective -> excessive pride and inferiority
+
+My numerous noticed weaknesses are related to my values and skills, as well as communication and managing conflicts. Attempts have been made to overcome these conflicts and maintain my optimism for the outcome of engineering design activities and personal development.
+
+**Hyperfocus.** I consider hyperfocus to be my strongest weakness in completing projects, including but not limited to engineering design activities. According to a research published in 2019, "‘Hyperfocus’ is a phenomenon that reflects one’s complete absorption in a task, to a point where a person appears to completely ignore or ‘tune out’ everything else.", which was the case for my numerous school assignments and projects and a large number of personal projects. This is closely related to my enthuasiasm: when I'm extremely enthuasiastic about something, I focus on the part I'm enthuasiastic about and overlook other important aspects, like how I often do an assignment without carefully reading the instruction, and start prototyping and testing in a personal project without going through much secondary research and analysis. I consider that my strong intuition to be worsening this, because it made me not approaching concepts and tasks rigorously and systematically, and therefore I spend more time trying to figure out the less important parts.
+
+And considering my reflective nature, when I think 
+
+**Communication and conflict management.**
+
+
+
+ - Enthuasiasm -> overlook important things, hand on without through research, can lead to depression instead; follow plan, set timer
+ - Reflective -> excessive pride and inferiority, daydreaming
  - Difficult to let go
- - Communication: just cursed, isolation is a solution?
+ - Communication: just cursed, lack of empathy; isolation is a solution?
+ - Strong intuition -> not rigorously and systematically
 
 
 
 ## Position Statement
 
+
+
+## References
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7851038/
+
+https://en.wikipedia.org/wiki/Hyperfocus
+
+https://en.wikipedia.org/wiki/Flow_(psychology)

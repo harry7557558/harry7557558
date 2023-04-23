@@ -53,15 +53,11 @@ https://www.mkdocs.org/getting-started/
     - Functional Decomposition
     - SCAMPER
     - Pairwise Comparison & Pugh Chart
+    - Waterfall Methodology
  - Communication
     - Toulmin's Model of Arguments
-    - Appeal to Logic
 
-## Personal Management
- - Time Management
- - Motivation Management
- - Waterfall Methodology
-
-## References and Further Reading
+## References and Appendix
  - Work Cited
+ - Individual Assessment Results
  - Further Reading
