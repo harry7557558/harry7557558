@@ -40,7 +40,7 @@ body > .container {
 .caption {
     text-align: center;
     width: 80%;
-    margin: 0 10%;
+    margin: 0 10% 1em 10%;
     color: #888;
 }
 
