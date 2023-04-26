@@ -5,7 +5,7 @@ This is where you can find an overview of my position: my belief and bias, my un
 
 If you are a member of the ESC102 teaching team, you may have already be familiar with me through various ways including but not limited to my submitted assignments and tutorial activites, and I hope this can help you see a process of how I struggled to understand myself and engineering design. If you are just a visitor from the internet who scrolled to this page, I just want to show you that I'm not a "normal" human to be treated "normally", as well as present some of my unique understandings.
 
-![functional-conch](about-me/functional-conch.jpg)
+![functional-conch](img/functional-conch.jpg)
 
 <p class="caption" markdown="1">
 A [digital rendering of a conch](https://www.shadertoy.com/view/Nt2yW3) I created in mid-2022. I enjoy programming, and I have a special fascination with beaches, spirals, and seashells.
@@ -13,9 +13,7 @@ A [digital rendering of a conch](https://www.shadertoy.com/view/Nt2yW3) I create
 
 <br/>
 
-
-
-## Overview
+# Overview
 
 While I scoped out all information regarding my mental condition and difficulties I've faced in this document, I characterize myself as a highly individualized and reflective person. I engage little in popular entertainment activities, but spend most of my spare time on personal programming projects and experiments. I frequently reflect on activites I engaged in, connecting the results and processes, trying to find out the cause of my failure and what's wrong with me. I pay attention to a lot of details and often believe things have meanings.
 
@@ -25,7 +23,7 @@ Communication and teamwork is where I found myself difficult in. If I need to us
 
 Based on my individualized background, I personally view engineering design as a fun activity where I find challenge, and I found enjoyment working on them for passion and possibly kill time, but I don't have much expectation for it to be practical or beneficial. I often feel the need to isolate myself from society so I can enjoy my own design activities, without bringing curse to any group who does engineering design for a "conventional" purpose.
 
-![sunnyside-beach](about-me/sunnyside-beach.jpg)
+![sunnyside-beach](img/sunnyside-beach.jpg)
 
 <p class="caption" markdown="1">
 Sunnyside beach. During the Praxis II design activity, I visited the beach 4 times (3 times independently) to collect information and test prototypes. My final design has an outstanding performance, but our showcase presentation was poorly organized, and there were lots of discrepancy among team members.
@@ -35,7 +33,7 @@ Sunnyside beach. During the Praxis II design activity, I visited the beach 4 tim
 
 
 
-## Engineering Design: An Optimization Problem
+# Engineering Design: An Optimization Problem
 
 Combining what I learned in the Praxis courses and my experience in personal programming activities, I present my understanding of engineering design as an optimization problem. I couldn't find a description of a similar analogy elsewhere so I consider this as my unique understanding.
 
@@ -64,8 +62,9 @@ However,
  - Iterative design: gradient descent
  - Judgement before testing to save effort
 
+<br/>
 
-## Values and Skills
+# Values and Skills
 
 I consider myself to have several strong areas that have committed to my success in individual work. Here I describe my strong intuition, strong motivation, and self-reflection.
 
@@ -79,8 +78,9 @@ I consider myself to have several strong areas that have committed to my success
  - Reflective: identify the causes of failure and success
  - Concentration without distraction
 
+<br/>
 
-## Weaknesses
+# Weaknesses
 
 My numerous noticed weaknesses are related to my values and skills, as well as communication and managing conflicts. Attempts have been made to overcome these conflicts and maintain my optimism for the outcome of engineering design activities and personal development.
 
@@ -98,11 +98,12 @@ And considering my reflective nature, when I think
  - Communication: just cursed, lack of empathy; isolation is a solution?
  - Strong intuition -> not rigorously and systematically
 
+<br/>
+
+# Position Statement
 
 
-## Position Statement
-
-
+<br/>
 
 ## References
 

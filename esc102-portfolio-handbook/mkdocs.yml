@@ -1,6 +1,13 @@
-site_name: Engineering Portfolio & Handbook - Harry Chen
+site_name: Engineering Portfolio & Handbook
 theme:
     name: mkdocs
     custom_dir: theme/
 markdown_extensions:
   - md_in_html
+nav:
+  - Introduction: 'introduction.md'
+  - About Me: 'about-me.md'
+  - Products: 'design-products.md'
+  - Processes: 'design-processes.md'
+  - TMFs: 'tmf.md'
+  - Appendix: 'appendix.md'

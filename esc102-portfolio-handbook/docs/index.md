@@ -1,4 +1,4 @@
-# Engineering Portfolio & Handbook
+# Engineering Design Portfolio & Handbook
 
 <h2>Harry Chen</h2>
 
@@ -14,7 +14,7 @@ https://www.mkdocs.org/getting-started/
 * `mkdocs build` - Build the documentation site.
 * `mkdocs -h` - Print help message and exit.
 
-----
+--------
 
 ## [Introduction](introduction)
  - Audiences and Purpose
@@ -40,7 +40,7 @@ https://www.mkdocs.org/getting-started/
  - Verification and Validation
  - Presentation
 
-## Tools, Models, and Frameworks
+## [Tools, Models, and Frameworks](tmf)
  - Models
     - Hoover Dam
     - Framing, Diverging, Converging, Represent
@@ -57,7 +57,7 @@ https://www.mkdocs.org/getting-started/
  - Communication
     - Toulmin's Model of Arguments
 
-## References and Appendix
+## [References and Appendix](appendix.md)
  - Work Cited
  - Individual Assessment Results
  - Further Reading
