@@ -1,8 +1,9 @@
 <h1>Personal Engineering Design Processes</h1>
+--------
 
 Focus on examples helpful for TMF, not reflection.
 
---------
+<br/>
 
 # Framing
  - Understanding what is a good design
@@ -15,7 +16,7 @@ Focus on examples helpful for TMF, not reflection.
  - "Good" metric to help converging and for presentation: glass fogginess
  - Some not too simple, holistically/pairwise comparison (ex. volunteer experience)
 
---------
+<br/>
 
 # Diverging and Converging
  - Global optimization, need diverse feedback
@@ -29,7 +30,7 @@ Focus on examples helpful for TMF, not reflection.
  - Manage lots of objectives: 
  - Make sure other objectives are met in not too detailed design; Test and compare specific objectives in detailed design (nurdle)
 
---------
+<br/>
 
 # Iterative Design
 
@@ -52,14 +53,14 @@ In Praxis II, the SCAMPER methods were used to change the hydrodynamic separator
 Testing of nurdle filter shows wood debris can also pass the filter. I responded my making an filter consisting of multiple layers of meshes, where wood can be caught by the rough walls inside holes, while spherical nurdles can still pass smoothly.
 </p>
 
---------
+<br/>
 
 # Verification and Validation
  - Framing can be inaccurate (ML camera), direct validation if not too difficult (ex. algorithm like mesh, nurdle)
  - No metric: validate by interviewing AGF
  - Verification: measure glass fogginess and airflow to get metrics for converging
 
---------
+<br/>
 
 # Presentation
  - 

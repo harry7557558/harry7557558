@@ -1,12 +1,15 @@
 <h1>Personal Engineering Design Products</h1>
+--------
 
 This page lists the products of my engineering design activities in the past year, since September 2022. As per assignment requirements, I write this page to present what are done to an external audience with no prior knowledge of the projects. While not focusing on the process and takeaways, I intentionally connect them with my positions mentioned on the previous page, including my personality, strengths, and attempts to overcome my weaknesses.
 
---------
+<br/>
 
 # Personal Programming Projects
 
 As mentioned in my about me, I created a lot of personal projects purely out of passion and to demonstrate my skills to myself. Most of them are not stunning products but focused on what I "like" rather than what I "need", and therefore a lot of them are experimental and ongoing. I don't have a particular goal for them, and I feel I'm more free when I don't have to work toward an objective, which can be hard to achieve due to hyperfocus. I also have multiple projects running at the same time and frequently start new projects, since I may become bored at one project, and I can always choose to switch back later. Some noticeable ones in the past year are the Spirula function grapher, the FEM mesh generation experiment, and the 3D matrix visualizer.
+
+<br/>
 
 ## Spirula Function Grapher
 
@@ -39,6 +42,7 @@ Some artworks I created using Spirula.
 *Bottom*: X-ray mode of the parametric surface grapher based on the [physically-based X-ray model](https://en.wikipedia.org/wiki/Beer%E2%80%93Lambert_law)
 </p>
 
+<br/>
 
 ## The Matrix Visualizer
 
@@ -52,6 +56,7 @@ I was researching the QR eigenvalue algorithm for another personal project, and 
 Interface of the matrix visualizer. I implemented link sharing after seeing the popularity of my tool. You can see an example here: [http://harry7557558.github.io/tools/matrixv.html#m=1,1,1;1,1,0;1,0,1&g=isosphere&s=2&tf=0](http://harry7557558.github.io/tools/matrixv.html#m=1,1,1;1,1,0;1,0,1&g=isosphere&s=2&tf=0)
 </p>
 
+<br/>
 
 ## FEM Mesh Generation
 
@@ -68,19 +73,19 @@ The project is still ongoing in parallel to my several other projects, since I'm
 *Right*: a screenshot I took while testing my mesh generation technique
 </p>
 
---------
+<br/>
 
 # Praxis II: The Nurdle Filter
  - Background: AGF
  - Features
  - Passionate about
 
---------
+<br/>
 
-# Praxis I: Foggy Glasses Solutions
+# Praxis I: Foggy Glasses Solution
  - 
 
---------
+<br/>
 
 # CIV102 Bridge Project
 

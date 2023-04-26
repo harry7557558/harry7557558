@@ -21,9 +21,6 @@
         <link href="{{ 'css/bootstrap.min.css'|url }}" rel="stylesheet">
         <link href="{{ 'css/font-awesome.min.css'|url }}" rel="stylesheet">
         <link href="{{ 'css/base.css'|url }}" rel="stylesheet">
-        {%- if config.theme.highlightjs %}
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/{{ config.theme.hljs_style }}.min.css">
-        {%- endif %}
         {%- for path in extra_css %}
         <link href="{{ path }}" rel="stylesheet">
         {%- endfor %}
@@ -33,13 +30,6 @@
 
         <script src="{{ 'js/jquery-1.10.2.min.js'|url }}" defer></script>
         <script src="{{ 'js/bootstrap.min.js'|url }}" defer></script>
-        {%- if config.theme.highlightjs %}
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-        {%- for lang in config.theme.hljs_languages %}
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/{{lang}}.min.js"></script>
-        {%- endfor %}
-        <script>hljs.initHighlightingOnLoad();</script>
-        {%- endif %}
       {%- endblock %}
 
       {%- block extrahead %} {% endblock %}
@@ -162,9 +152,8 @@
         <footer class="col-md-12">
           {%- block footer %}
             <hr>
-            {%- if config.copyright %}
-                <p>{{ config.copyright }}</p>
-            {%- endif %}
+            <p>Engineering Design Portfolion & Handbook
+                <br>Harry Chen, April 2023</p>
             <p>Page built with <a href="https://www.mkdocs.org/">MkDocs</a> {{ mkdocs_version }}.</p>
           {%- endblock %}
         </footer>
