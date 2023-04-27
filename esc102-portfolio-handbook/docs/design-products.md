@@ -3,6 +3,14 @@
 
 This page lists the products of my engineering design activities in the past year, since September 2022. As per assignment requirements, I write this page to present what are done to an external audience with no prior knowledge of the projects. While not focusing on the process and takeaways, I intentionally connect them with my positions mentioned on the previous page, including my personality, strengths, and attempts to overcome my weaknesses.
 
+![](img/truss.png)
+
+<p class="caption" markdown="1">
+A 3D truss analysis tool I coded in Python. Inspired by the CIV102 course.
+<br/>
+I enjoy writing code to solve problems. As a result, I wrote code to do my CIV102 assignments, which I thought was tedious. As another result, I messed up almost all CIV102 quizzes on truss and beam analysis, because I did little practice on being a human computer.
+</p>
+
 <br/>
 
 # Personal Programming Projects
@@ -76,14 +84,40 @@ The project is still ongoing in parallel to my several other projects, since I'm
 <br/>
 
 # Praxis II: The Nurdle Filter
- - Background: AGF
- - Features
- - Passionate about
+
+In the praxis II course, I worked in a team of 4 to address nurdle collection on Ontario beaches. Nurdles are 3mm-5mm plastic pellets lost to the environment from plastic supply chain, which can be harmful to wildlifes. The environmental organization *[A Greener Future](https://www.agreenerfuture.ca/)* hosts nurdle collection activites, however, picking manually is very slow and physically demanding.
+
+Independent from other team members, I conducted cycles of prototyping, testing, and refinement to improve a design based on filtering mesh and water, considering the design draft can have lots of unexpected issues, and also due to my urge to see something working and my willingness to present an actual working solution to the community. While I decided to keep their original collection solution with hand shovels and sifters, I came out with a tool that separates collected mixture of beach debris based on lake water and layers of filters. I consider the main features of our solution to be it's 80x improvement on separation speed, robustness over both dry and wet sand, reduction on physical strain of participating volunteers, and easiness to reproduce with readily available materials.
+
+<img src="../img/nurdle-1.jpg" style="width:48%;display:inline"></img>
+<img src="../img/nurdle-2.jpg" style="width:48%;display:inline"></img>
+<p class="caption" markdown="1">
+*Left*: nurdles separated in 4 minutes by the solution
+<br/>
+*Right*: collected mixture to be separated
+</p>
+
+![](img/nurdle-bucket.jpg)
+<p class="caption" markdown="1">
+The solution being used in process
+</p>
+
+<img src="../img/nurdle-3.jpg" style="width:48%;display:inline"></img>
+<img src="../img/nurdle-4.jpg" style="width:48%;display:inline"></img>
+<p class="caption" markdown="1">
+What passes the filter and what remains in the container
+</p>
 
 <br/>
 
 # Praxis I: Foggy Glasses Solution
- - 
+
+In Praxis I, I worked in a group of four to address foggy glasses while wearing a mask, which has been an issue since the start of the COVID-19 pandermic. We came out with five potential solutions, physically prototyped and tested four of them, and we recommended placing a barrier between the nose and the glasses to prevent humid exhaled air from reaching the glasses.
+
+![](img/glasses-barrier.jpg)
+<p class="caption" markdown="1">
+CAD model of our recommended design, created by another team member.
+</p>
 
 <br/>
 

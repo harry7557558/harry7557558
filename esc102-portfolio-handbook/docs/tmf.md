@@ -6,7 +6,8 @@ This page lists the models and tools that I have used before and would like to c
 
 <br/>
 
-# Personal Engineering Design Models
+# Engineering Design Models
+
 <br/>
 
 ## Hoover Dam
@@ -24,7 +25,7 @@ This page lists the models and tools that I have used before and would like to c
  - Convergence: eliminate through research/analysis, analogous to shortcuts/interpolation for numerical optimization
  - Negotiate objectives during diverging and testing
  - Make more detailed/specific through iterations (refinement in optimization)
- - Be patient, too fast -> bad results
+ - D/C: Be patient, too fast -> not well optimized
 
 
 <br/>
@@ -56,25 +57,23 @@ Based on these experiences, I conclude that while framing requirements into obje
 
 # Personal Engineering Design Tools
 
- - https://dhrumil0902.github.io/portfolio/handbook.pdf
-      - Purpose, how, example, advantage/disadvantage (list)
- - http://xueqilin.me/engsci-2t4/esc102/handbook.pdf
- - https://raw.githubusercontent.com/JLefebvre55/ESC102-Handbook/master/Handbook.pdf
-
- - https://www.peterfisk.com/wp-content/uploads/2016/01/27-Creativity-Tools-for-Divergent-and-Convergent-Thinking.pdf
 
 Follow an order of design process (after understanding the problem)
+
  - Do some individual brainstorming (biomimicry, attribute listing, lotus bloosom, etc.) before secondary research to avoid anchoring
  - Generate a variety of ideas through brainwriting
+ - Converge to several
+ - SCAMPER
+ - Prototyping/testing, improve specificity
 
 <br/>
 
 ## Biomimicry
  - Inspired by nature; Nature is good at optimization;
  - Suitable for me, it's an individual acticity itself, and I'm a fan of nature
- - Advantages: take a mental break
- - Think similar problems in nature itself is a diverging activity?
  - Examples: simulated annealing for CIV; valve mask;
+ - Advantages: take a mental break
+ - <del>Problem: Think similar problems in nature itself is a diverging activity?</del>
 
 <br/>
 
@@ -102,7 +101,16 @@ The CRAAP test.<br/>Image source: [UW-Stout University Library](https://www.face
  - description
  - Use: praxis I, early praxis II
  - Advantages: a variety of inputs, reduce fixedness; timed manner, stimulate ideas
- - Disadvantages: done in teams, can be tiring and therefore do whatever looks "good"
+ - Disadvantages: done in teams, can become tired and put whatever looks "good"
+
+<br/>
+
+## Pairwise Comparison & Pugh Chart
+ - Description for each
+      - Connection: pc count can be used as metric
+ - Used in praxis I, not really praxis II
+ - Used for early converging with lots of reference designs + objectives, but not deciding detailed design, many objectives already met
+ - Practical consideration: metrics can be bad, use judgement
 
 <br/>
 
@@ -110,19 +118,18 @@ The CRAAP test.<br/>Image source: [UW-Stout University Library](https://www.face
 
 <br/>
 
-## Pairwise Comparison & Pugh Chart
- - Used for decision making
- - Practical consideration: don't always rely on metrics
-
-<br/>
-
 ## SCAMPER
- - 
+ - Each letter
+ - Provide a gradient to evolve the design toward the objectives
+ - Use: hydrodynamic separator -> nurdle bucket
 
 <br/>
 
 ## Prototyping: Programming
- - Advantages: no additional material/space, I'm experienced in, resources are openly accessible
+ - My bias + The only thing I need for personal projects
+ - Advantages: no additional material/space, I'm experienced, resources are openly accessible
+ - Experiences: fogginess metric, nurdle camera, CIV bridge; mesh generation: marching tetrahedra, edge splitting
+ - Practical considerations: judge how accurate it represents reality; don't waste time if you can kill a design with research/math
 
 <br/>
 

@@ -3,8 +3,6 @@
 
 This is where you can find an overview of my position: my belief, my unique understanding of engineering design process, my values and skills and their related bias, as well as my weaknesses and my attempts to overcome them. I thought about justifying them with evidences, but I found it can be sometimes easier to follow and understand if I just state them, so I decided to leave supporting evidence to later parts of my portfolio and handbook.
 
-If you are a member of the ESC102 teaching team, you may have already be familiar with me through various ways including but not limited to my submitted assignments and tutorial activites, and I hope this can help you see how I understand myself and engineering design. If you are just a visitor from the internet who scrolled to this page, I only expect I can show you that I'm not a "normal" person, as well as present some of my unique understandings.
-
 ![functional-conch](img/functional-conch.jpg)
 
 <p class="caption" markdown="1">
@@ -37,16 +35,16 @@ Sunnyside beach. During the Praxis II design activity, I visited the beach 4 tim
 
 Combining what I learned in the Praxis courses and my experience in personal programming activities, I present my understanding of engineering design as an optimization problem. I couldn't find a description of a similar analogy elsewhere so I consider this as my unique understanding.
 
-In applied mathematics and science, a common problem is finding the extremum of a mathematical function. For example, in aerospace, one would try to maximize a function that takes the amount of fuel in each layer of a rocket and outputs the height traveled; In finance, one would try to maximize a function that takes the price of a product and outputs the net profit; In CAD modeling and graphics design, a program would try to minimize the error between a smooth spline and a hand-sketched path. Some optimization problems have constraints, like the amount of fuels in each layer must be non-negative, and the spline must start and end at specific points.
+In applied mathematics and science, a common problem is finding the extremum of a mathematical function. For example, in aerospace, one would try to maximize a function that takes the amount of fuel in each layer of a rocket and outputs the speed the rocket can reach; In finance, one would try to maximize a function that takes the price of a product and outputs the net profit; In CAD modeling and graphics design, a program would try to minimize the error between a smooth spline and a hand-sketched path. Some optimization problems have constraints, like the amount of fuels in each layer must be non-negative, and the spline must start and end at given points.
 
-Given a function where you want to minimize (or maximize, but here I use minimize by convention), one way to solve the optimization problem is [gradient descent](https://en.wikipedia.org/wiki/Gradient_descent): if you know the direction the function goes down, just keep going in that direction and keep going down until you can't go down anymore, and you arrive at the minimum.
+Given a function where one wants to minimize (or maximize, but here I use minimize by convention), one way to solve the optimization problem is [gradient descent](https://en.wikipedia.org/wiki/Gradient_descent): if you know the direction the function goes down, just keep going down in that direction until you can't go down anymore, and you arrive at a minimum.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Gradient_descent.svg/800px-Gradient_descent.svg.png" style="width:25%;display:inline"></img>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Goldstein_Price_function.pdf/page1-1200px-Goldstein_Price_function.pdf.jpg" style="width:35%;display:inline"></img>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Ackley%27s_function.pdf/page1-1200px-Ackley%27s_function.pdf.jpg" style="width:35%;display:inline"></img>
 
 <p class="caption" markdown="1">
-*Left*: how gradient descent arrives at the minimum.
+*Left*: arriving at the minimum through iterations of gradient descent.
 <br/>
 *Middle*: a function where the global minimum can be arrived at through gradient descent.
 <br/>
@@ -57,10 +55,11 @@ However, []
 
  - Mathematical optimization: find a global minimum
  - Can be quantized through framing, but not required
- - Go fast -> not optimal
- - FDCR: genetic algorithm
+ - Lots of local minimum, go fast -> not optimal, need diverse start points and inputs to prevent getting stuck
+ - Scoping: makes easier to solve, negotiate if it's restricting
+ - D/C: genetic algorithm
  - Iterative design: gradient descent
- - Judgement before testing to save effort
+ - Difficult to test (function is expensive to evaluate): secondary research / calculation, low fidelity testing
 
 <br/>
 
@@ -104,7 +103,7 @@ Another digital rendering I created by writing [code](https://www.shadertoy.com/
 
 # Position Statement
 
-I am an engineering student with a strong skill and enthuasiasm in programming. I am experienced in computer graphics and numerical algorithms through 5 years of indepedent experimenting and exploration. My biggest strength is my strong intuition and learning skills. While I often think solutions from a programming perspective and can easily concentrate on my passion activities, I frequently reflect on the causes behind outcomes and seek improvement.
+I am an engineering student with a strong skill and enthuasiasm in programming. I am experienced in computer graphics and numerical algorithms through 5 years of indepedent experimenting and exploration. I consider my biggest strength to be my strong intuition and learning skills. While I often think from a programming perspective and can easily concentrate on my passion activities, I frequently reflect on the causes behind outcomes and seek improvement.
 
 
 <br/>
