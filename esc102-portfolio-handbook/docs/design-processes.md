@@ -14,7 +14,7 @@ Focus on examples helpful for TMF, not reflection.
     - Understand what features people (I) need for a matrix visualizer
  - Some numerical metrics are simple; Bridge project: FoS, overall is min of all; Detailed objectives
  - "Good" metric to help converging and for presentation: glass fogginess
- - Some not too simple, holistically/pairwise comparison (ex. volunteer experience)
+ - Some not too simple, holistically/pairwise comparison by judgement after validation (ex. volunteer experience); In personal projects, validating algorithms is easy
 
 <br/>
 
@@ -25,9 +25,10 @@ Focus on examples helpful for TMF, not reflection.
  - Attribute listing: nurdle/wood
  - Biomimicry: glasses
  - Previously (glasses, camera) unbelievable ideas with little secondary research didn't work well, might eliminate if no much secondary research if there's no effort to prototype/test
+ - Negotiate objectives: little supporting research (glasses visibility); nurdle: difficult to test (MSI), found metric not accurate during testing (strain), don't help convergence because every design get the same (meet safety standards)
  - Pairwise comparison mostly match intuition (nurdle), but logically it has potential to reduce bias
  - Pugh chart: worked for praxis I final, not suitable for lots of objectives
- - Manage lots of objectives: 
+ - Manage lots of objectives (nurdle): eliminate during early convergence, one by one while increasing specificity, not all at once
  - Make sure other objectives are met in not too detailed design; Test and compare specific objectives in detailed design (nurdle)
 
 <br/>
@@ -56,11 +57,9 @@ Testing of nurdle filter shows wood debris can also pass the filter. I responded
 <br/>
 
 # Verification and Validation
- - Framing can be inaccurate (ML camera), direct validation if not too difficult (ex. algorithm like mesh, nurdle)
+ - Framing can be inaccurate (ML camera), direct validation if not too difficult (ex. rendering algorithm, nurdle)
  - No metric: validate by interviewing AGF
  - Verification: measure glass fogginess and airflow to get metrics for converging
+ - Nurdle: directly do high fidelity prototype because low fidelity == high fidelity, proven helpful
 
 <br/>
-
-# Presentation
- - 

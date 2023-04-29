@@ -54,12 +54,12 @@ Given a function where one wants to minimize (or maximize, but here I use minimi
 However, []
 
  - Mathematical optimization: find a global minimum
- - Can be quantized through framing, but not required
  - Lots of local minimum, go fast -> not optimal, need diverse start points and inputs to prevent getting stuck
  - Scoping: makes easier to solve, negotiate if it's restricting
  - D/C: genetic algorithm
  - Iterative design: gradient descent
  - Difficult to test (function is expensive to evaluate): secondary research / calculation, low fidelity testing
+ - Real engineering: Can be quantized through framing, but not required for personal ones I did for passion (though still used)
 
 <br/>
 

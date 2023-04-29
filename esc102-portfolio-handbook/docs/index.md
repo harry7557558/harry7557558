@@ -48,7 +48,6 @@ In the document, I try to discuss the individual parts and the team parts separa
  - Diverging and Converging
  - [Iterative Design](design-processes/#iterative-design)
  - Verification and Validation
- - Presentation
 
 ## [Tools, Models, and Frameworks](tmf)
  - [Engineering Design Models](tmf/#engineering-design-models)
@@ -59,12 +58,12 @@ In the document, I try to discuss the individual parts and the team parts separa
     - Biomimicry
     - [Secondary Research](tmf/#secondary-research)
     - Brainwriting
-    - Pairwise Comparison & Pugh Chart
+    - [Pairwise Comparison & Pugh Chart](tmf/#pairwise-comparison-pugh-chart)
     - Functional Decomposition
     - SCAMPER
+    - Prototyping: Programming
  - [Communication: Toulmin's Model of Argument](tmf/#communication-toulmins-model-of-argument)
 
 ## [References and Appendix](appendix.md)
  - Work Cited
  - Individual Assessment Results
- - Further Reading

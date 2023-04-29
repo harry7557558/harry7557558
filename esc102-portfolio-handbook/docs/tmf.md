@@ -20,11 +20,11 @@ This page lists the models and tools that I have used before and would like to c
 <br/>
 
 ## Framing, Diverging, Converging, Represent
- - Global optimization done by humans
- - Divergence: avoid bias and blind spots, usually done in teams; Individual: research reference designs
- - Convergence: eliminate through research/analysis, analogous to shortcuts/interpolation for numerical optimization
- - Negotiate objectives during diverging and testing
- - Make more detailed/specific through iterations (refinement in optimization)
+ - Global optimization done by humans (connect all below points with optimization algorithms)
+ - Divergence: avoid bias and blind spots and fixedness, usually done in teams; Individual: research reference designs
+ - Convergence: eliminate through research/analysis, know whether the design will work before seeing how well it works (evidence: mesh generation), analogous to shortcuts/interpolation for numerical optimization; testing = function evaluation
+ - Negotiate objectives during diverging and testing (evidence: nurdle) (human only?)
+ - Make more detailed/specific through iterations (evidence: nurdle) (refinement in optimization)
  - D/C: Be patient, too fast -> not well optimized
 
 
@@ -106,11 +106,26 @@ The CRAAP test.<br/>Image source: [UW-Stout University Library](https://www.face
 <br/>
 
 ## Pairwise Comparison & Pugh Chart
- - Description for each
-      - Connection: pc count can be used as metric
- - Used in praxis I, not really praxis II
- - Used for early converging with lots of reference designs + objectives, but not deciding detailed design, many objectives already met
- - Practical consideration: metrics can be bad, use judgement
+
+Pairwise comparison matrix and Pugh chart are two convergence tools explicitly taught in Praxis I. When using a pairwise comparison matrix, the user counts how many other designs each design is better than. If there are multiple criteria, a reference design is chosen and the utility for every other design is compared with the reference for each objective, and the number of "better"s and "worse"s for each design is counted. While these convergence tools can provide numerical values, at the end, humans need to decide with judgement instead of relying on numbers.
+
+<img src="../img/pairwise.png" style="width:48%;display:inline"></img>
+<img src="../img/pugh.png" style="width:48%;display:inline"></img>
+<p class="caption" markdown="1">
+ESC101 course slides on pairwise comparison matrix and Pugh chart
+</p>
+
+Pugh chart helped my praxis I gruop converge by presenting a clear image on how different designs compare. While pairwise comparison elimininated two early diverged designs in praxis II, I feel convergence tools are much less effective compared to in praxis I. I notice that in praxis I we had several completely indepedent designs to choose from, but in praxis II we iteratively generate more detailed designs, and often only a few objectives need to be evaluated to decide on a minor change because other objectives are already met. And therefore I consider these convergence tools to be more applicable for earlier parts design processes.
+
+![](img/pugh-glasses.png)
+<p class="caption" markdown="1">
+The counts of the Pugh chart created in Praxis I where the recommended solution is chosen as the reference. The recommended solution not only wims by counts but also meets the critical objectives.
+</p>
+
+![](img/measurement-nurdle.png)
+<p class="caption" markdown="1">
+Measurement matrix for two alternate detailed designs in Praxis II. The winner is clear without the need for any convergence tool.
+</p>
 
 <br/>
 
@@ -129,7 +144,7 @@ The CRAAP test.<br/>Image source: [UW-Stout University Library](https://www.face
  - My bias + The only thing I need for personal projects
  - Advantages: no additional material/space, I'm experienced, resources are openly accessible
  - Experiences: fogginess metric, nurdle camera, CIV bridge; mesh generation: marching tetrahedra, edge splitting
- - Practical considerations: judge how accurate it represents reality; don't waste time if you can kill a design with research/math
+ - Practical considerations: judge how accurate it represents reality; don't waste time if you can eliminate a design with research/math
 
 <br/>
 
