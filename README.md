@@ -1,7 +1,7 @@
 Hello 👋 this is my GitHub profile.
 I'm passionate about **numerical techniques** including but not limited to **computer graphics**,
 and you can find a lot of code about these topics ~~written from scratch~~ on my GitHub.
-This README is intended to be a guide for you to browse my stuff.
+This README is intended to be a guide for you to browse [my stuff](./list-of-projects.md).
 
 My **cool** 😎 stuffs include the
 [3D implicit surface grapher](https://harry7557558.github.io/spirula/implicit3/index.html)
@@ -23,7 +23,7 @@ Another "worth mention" is this
 [chemical equation balancer](https://harry7557558.github.io/tools/chemequ.html).
 
 The [Graphics](https://github.com/harry7557558/Graphics) repository is a collection of
-my computer graphics and numerical algorithm experiments done over years 🤓.
+my computer graphics and numerical algorithm experiments done over years 🤯.
 The [harry7557558.github.io](https://github.com/harry7557558/harry7557558.github.io) repository
 was created to share my stuff that I feel cool and/or useful (listed above) as well as others 👀.
 The [miscellaneous](https://github.com/harry7557558/miscellaneous) repository contains mainly
