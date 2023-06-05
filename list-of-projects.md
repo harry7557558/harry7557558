@@ -31,7 +31,7 @@ List of my Shadertoy shaders: https://harry7557558.github.io/shadertoy/index.htm
 
 https://harry7557558.github.io/spirula/
 
-![](https://media.discordapp.net/attachments/987164635872526407/1115877050276925460/image.png)
+![](./list-of-projects-src/a8fe16b5e90d81b7daefde4607211e4a.jpg)
 
 I was inspired by raymarching demos on Shadertoy to create a WebGL online graphing calculator for 3D implicit surfaces. I implemented an equation parser based on the Shunting-Yard algorithm that supports defining custom variables and functions. The parser generates code for a GLSL function with automatic differentiation, which is visualized by raymarching in screen space. I also independently developed a regression-based anti-aliasing technique. The function grapher was heavily updated in October 2022 to include complex arithmetic, a formula for fast gradient estimation that I derived, and improved mobile compatibility.
 
@@ -39,7 +39,7 @@ I was inspired by raymarching demos on Shadertoy to create a WebGL online graphi
 
 https://harry7557558.github.io/art/molm/index.html
 
-![](https://media.discordapp.net/attachments/987164635872526407/1115877686326337567/image.png)
+![](./list-of-projects-src/3630cfacf81862b858cf72c9af805c1d.jpg)
 
 I made this artwork for a high school English course. I procedurally modeled several objects and rendered them using Monte Carlo path tracing in WebGL. I implemented the Cook-Torrance reflectance model, refractive materials, and emissive materials.
 
@@ -47,7 +47,7 @@ I made this artwork for a high school English course. I procedurally modeled sev
 
 https://harry7557558.github.io/AVI4M-ISP/index.html
 
-![](https://harry7557558.github.io/AVI4M-ISP/images/jpg/rendering-202201250221.jpg)
+![](./list-of-projects-src/9fa6c63aadf0696ea84c497072a2ae17.jpg)
 
 I created this project for a high school art course. I developed an SDF visualization tool using volume rendering techniques and used it in CSG modeling. I implemented octree-based adaptive marching cubes for surface reconstruction and developed disambiguation techniques. I initially wrote path tracing rendering code from scratch. I later rendered the models in Blender to save time and meet the deadline.
 
@@ -55,7 +55,7 @@ I created this project for a high school art course. I developed an SDF visualiz
 
 https://harry7557558.github.io/Graphics/raytracing/webgl_volume/index.html
 
-![](https://media.discordapp.net/attachments/987164635872526407/1115878202913591336/image.png)
+![](./list-of-projects-src/b3e9e1c320d6ba508d0d1ddd4c1d2c77.jpg)
 
 I played with volume rendering of medical imaging datasets in WebGL 2. I processed several popular CT and MRI scanning datasets into raw bytes using NumPy. I implemented volume rendering modes like MIP, X-ray, isosurface, volumetric integration, gradient-dependent transfer function, etc.
 
@@ -69,7 +69,7 @@ I was inspired by WordPress identicon to generate identicon eggs. To make the sh
 
 https://harry7557558.github.io/Graphics/UI/Homework/AVI3M/index.html
 
-![](https://harry7557558.github.io/Graphics/UI/Homework/AVI3M/min/eye_6_1.jpg)
+![](./list-of-projects-src/bd1e9c662fd8ad5eab61985ac9ae3ff4.jpg)
 
 I generated 3D renderings of an eye model for a high school art project. The model was an implicit surface triangulated by the marching cube method, and I merged vertices that are too close with the help of the disjoint set data structure. I implemented Monte Carlo path tracing for rendering and played with specular, refractive, and glossy materials. I received a perfect score on this project.
 
@@ -94,7 +94,7 @@ https://github.com/harry7557558/Graphics/tree/master/modeling/png2obj
 
 Generate mesh -> solve $\nabla^2 h+4=0$ subject to zero boundary condition -> reconstruct surface $x^2+y^2=h$
 
-![](https://media.discordapp.net/attachments/987164635872526407/1115874605840728126/image.png?width=974&height=629)
+![](./list-of-projects-src/ac064a10896c0542cc74a4a04dea7ac6.jpg)
 
 ## Implicit Mesh Smoothing Experiment (February 2022)
 
@@ -116,7 +116,7 @@ Quadtree; Orthogonal approximation error; Tested on [artistic models](https://gi
 
 https://github.com/harry7557558/Graphics/tree/master/simulation/fem/statics_le
 
-![](https://media.discordapp.net/attachments/987164635872526407/1115879478988656740/fem.png)
+![](./list-of-projects-src/7065d7e990c4e327aa6370b58188417f.jpg)
 
 I experimented with solving 3D trusses using the stiffness method after learning about trusses in university, and I soon moved to write C++ code from scratch to analyze stress and deflection in solids. I researched strain and stress formulations, experimented with linear and quadratic tetrahedral elements of various shapes, different preconditioners for the conjugate gradient method, and mesh generation from implicit objects. I also implemented an OpenGL GUI to visualize results.
 
@@ -139,7 +139,7 @@ I tried to find ways to place a rigid body on a plane to minimize the height of 
 
 https://harry7557558.github.io/Graphics/simulation/fluid_grid/jacobi_pressure/index.html
 
-![](https://media.discordapp.net/attachments/987164635872526407/1115880723342180382/301986826_5486903501393867_8015838123372282109_n.png)
+![](./list-of-projects-src/777475f9d08a829ca51e8a04f2e52bb7.jpg)
 
 I implemented a web-based fluid simulation demo after reading Jamie Wong’s blog post. I attempted a multigrid pressure solver and vorticity confinement.
 
@@ -169,7 +169,7 @@ I implemented a GAN neural network in PyTorch and trained it on the FFHQ face da
 
 https://github.com/harry7557558/Graphics/tree/master/fitting
 
-![](https://media.discordapp.net/attachments/987164635872526407/1115881462902820954/7tlBRM.png)
+![](./list-of-projects-src/a8f8926baabc26c95540d802725bb889.jpg)
 
 I tried to implement neural networks in C++ from scratch to see if they can overperform machine learning frameworks. I implemented dense, convolutional, and RBF layers, and SGD, Adam, and BFGS optimizers. I generated a grid of SDF values from a polygon mesh using breast-first search and fitted it to a SIREN neural model. I improved the algorithm by using quasi-random sampled data points in mini-batch training. I did several tests with different random number seeds and found that compared to TensorFlow, my code achieved half of the loss in a quarter of the time on average.
 
@@ -181,7 +181,7 @@ I tried to implement neural networks in C++ from scratch to see if they can over
 
 https://github.com/harry7557558/svg-to-desmos
 
-![](https://media.discordapp.net/attachments/987164635872526407/1115879174637375528/image.png?width=911&height=576)
+![](./list-of-projects-src/f7e39854080d192e7a394a665bddffa3.jpg)
 
 After seeing other people’s projects exporting SVG images to the Desmos graphing calculator, I was intrigued to write my own but focus on size optimization. I wrote a Python script that parses SVG paths into Bézier splines, and applied arc-length parameterized discretization using Gaussian quadrature and the secant method. I compressed the paths using FFT and merged shapes with the same colors using an R-tree and a greedy algorithm. I was able to fit the entire Twemoji list (4000+ emojis, 7MB SVG) into a single Desmos graph with a size of less than 3 MB.
 
@@ -198,7 +198,7 @@ I tried to normalize noises used in procedural modeling to a fixed mean and vari
 
 https://github.com/harry7557558/Graphics/tree/master/UI/color_functions
 
-![](https://media.discordapp.net/attachments/987164635872526407/1115878907615383592/NsSSRK.png)
+![](./list-of-projects-src/3b9660aa366a96c384ded3d8ba1ea300.jpg)
 
 I tried to fit Wolfram colormap functions and export them to personal projects. I implemented linear least squares for polynomial and trigonometric series models with varying numbers of terms. I also fit them to a frequency-dependent trigonometric model by setting the frequency to a numerical optimization parameter.
 
@@ -221,7 +221,7 @@ I derived analytical solutions to least squares fitting to 2D points for lines a
 
 https://harry7557558.github.io/tools/matrixv.html
 
-![](https://media.discordapp.net/attachments/987164635872526407/1115879912994242660/Screenshot_2023-01-12_235523.png)
+![](./list-of-projects-src/5ee9f338723d6c95e30029d5658f8596.jpg)
 
 I wrote an online tool to visualize transformation matrices in computer graphics on an HTML5 canvas, which has several built-in 3D models and visualization of eigenpairs. It was updated in October 2022 to use the shifted QR algorithm for more accurate and stable eigenpair calculation. Currently, this tool has more than 600 Google search clicks per month according to Google Search Console.
 
@@ -241,6 +241,6 @@ For this high school art project, I implemented a 3D stick figure animation engi
 
 https://harry7557558.github.io/tools/chemequ.html
 
-![](https://media.discordapp.net/attachments/987164635872526407/1115880220172484678/image.png)
+![](./list-of-projects-src/3f108e82013ec1a6d5706deb1260271a.jpg)
 
 I learned the solution to homogeneous linear systems and applied it to balancing chemical equations. I implemented a chemical equation parser in JavaScript, a rational number class, and a Gaussian elimination solver. I applied integer congruence properties to find multiple solutions for linear systems with a solution space rank higher than 1.
