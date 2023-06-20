@@ -4,10 +4,6 @@
 
 Here is a document I created to track and showcase my personal projects. I spent a large fraction of my spare time on personal programming projects, out of personal passion, eager to demonstrate my ability, curiosity, altruism, artistic pursuit, and as a relaxing activity. Most of my works on GitHub are done independently. My topic of interest include rendering and visualization, geometry processing, image and signal processing, and physical simulation and control. I mostly code in C++ and Python, but I also use JavaScript for web applications.
 
-(When I explained to other people I found my motivation for doing these projects controversial. You may check this [argumentive essay for a high school English course](https://docs.google.com/document/d/1kPZR1pcpAQbeRbjvexFIa1hHDHlmzMwx9m2K0_GtyqI/preview) written in mid-2022 for my motivations for these personal projects, but note that it is intended to meet the objectives of a school assignment, and my motivation has been evolving.)
-
-While I have a lot of large and small projects, projects listed on this page are selected to represent diverse categories while limited to those related to numerical techniques. Other objectives include how "cool" a project appear to an average audience, how meaningful the project is to me, my skills the project demonstrates, and the scale of the project. The categories are ranked by my interest, and items in a category are ranked in reverse chronological order.
-
 ## I'm currently working on
 
 Summer design team project in the [Flight Simulation and Control Lab](https://www.flight.utias.utoronto.ca/fsc/) (January 2023 -)
