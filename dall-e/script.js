@@ -694,7 +694,7 @@ const OBJECTS = [
         "original": "https://cdn.discordapp.com/attachments/989936230470934558/1058294594040758342/craiyon_030333_icon_of_a_mobile_app_that_renders_3D_mathematical_functions_and_surfaces.png",
         "date": "12/30/2022",
         "text": "icon of a mobile app that renders 3D mathematical functions and surfaces",
-        "comment": "Inspired by my [url=https://harry7557558.github.io/spirula/]3D implicit surface grapher[/url]. It's interesting to see 3D shapes pop out of screens."
+        "comment": "Inspired by my [url=https://harry7557558.github.io/spirulae/]3D implicit surface grapher[/url]. It's interesting to see 3D shapes pop out of screens."
     },
     {
         "original": "https://cdn.discordapp.com/attachments/989936230470934558/1058295830286708787/craiyon_030630_________.png",

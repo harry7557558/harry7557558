@@ -9,8 +9,8 @@ Here is a document I created to track and showcase my personal projects. I spent
 Summer design team project in the [Flight Simulation and Control Lab](https://www.flight.utias.utoronto.ca/fsc/) (January 2023 -)
 
 Adaptive mesh generation
- - 2D to 3D (https://harry7557558.github.io/Graphics/simulation/fem/wasm_test/), (March 2023 -)
- - If I can make Spirula export polygon mesh models for 3D printing and 3D art that would be cool?
+ - 2D to 3D (https://harry7557558.github.io/spirulae/meshgen2/), (March 2023 -)
+ - If I can make Spirulae export polygon mesh models for 3D printing and 3D art that would be cool?
 
 Attempt to denoise path-traced images and run it in a web browser; ([what I have so far](https://github.com/harry7557558/Graphics/blob/master/image/denoise/implicit3-alpha-field-perceptual-train.ipynb)) (May 2023 -)
 
@@ -23,9 +23,9 @@ List of my Shadertoy shaders: https://harry7557558.github.io/shadertoy/index.htm
 
 # Art and Rendering
 
-## Spirula Online Function Grapher (March 2022 - May 2022; October 2022; March 2023 - May 2023)
+## Spirulae Online Function Grapher (March 2022 - May 2022; October 2022; March 2023 - May 2023)
 
-https://harry7557558.github.io/spirula/
+https://harry7557558.github.io/spirulae/
 
 ![](./list-of-projects-src/a8fe16b5e90d81b7daefde4607211e4a.jpg)
 
