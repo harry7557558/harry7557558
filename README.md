@@ -1,6 +1,6 @@
 Hello 👋 this is my GitHub profile.
-I'm passionate about **numerical techniques** including but not limited to **computer graphics**,
-and you can find a lot of code about these topics ~~written from scratch~~ on my GitHub.
+I'm a bit ~~enslaved~~ by **numerical techniques** including but not limited to **computer graphics**,
+and you can find a lot of works about these topics ~~written from scratch~~ on my GitHub.
 This README is intended to be a guide for you to browse [my stuff](./list-of-projects.md).
 
 My **cool** 😎 stuffs include the
@@ -22,18 +22,18 @@ and this [color picker](https://harry7557558.github.io/tools/colorpicker.html).
 Another "worth mention" is this
 [chemical equation balancer](https://harry7557558.github.io/tools/chemequ.html).
 
+Two cool repositories of mine are
+[Spirulae graphing calculator 🐚](https://github.com/harry7557558/spirulae) and
+[SVG to Desmos 🎨](https://github.com/harry7557558/svg-to-desmos).
 The [Graphics](https://github.com/harry7557558/Graphics) repository is a collection of
 my computer graphics and numerical algorithm experiments done over years 🤯.
 The [harry7557558.github.io](https://github.com/harry7557558/harry7557558.github.io) repository
 was created to share my stuff that I feel cool and/or useful (listed above) as well as others 👀.
 The [miscellaneous](https://github.com/harry7557558/miscellaneous) repository contains mainly
 scripts that I write to automate work and satisfy curiosity 🌎.
-Most of my repositories are collections of code instead of individual projects (with exceptions 📝).
 
-An "about me" can be found in this
-[essay from a grade-school English course](https://docs.google.com/document/d/1kPZR1pcpAQbeRbjvexFIa1hHDHlmzMwx9m2K0_GtyqI/preview),
-which initially received a below-average grade ⁉.
-[This page](https://harry7557558.github.io/harry7557558/dall-e/index.html)
-may show you my fascinations other than programming 🐚🔮🌊.
-The final thing to note is that
+A list of things I've made and am working on can be found [here](./list-of-projects.md).
+Regardless of all the cool stuff listed above,
+not well known is the true identity of the entity who made all these 👁️. 
+One thing to note is that
 [**harry7557558**](https://harry7557558.github.io/) is not a "normal" human being 🤖😈🤒.
