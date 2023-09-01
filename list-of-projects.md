@@ -1,18 +1,16 @@
 # List of My Personal Projects
 
-*Last updated: August 16th, 2023*
+*Last updated: August 31th, 2023*
 
 Here is a document I created to track and showcase my personal projects. I spent a large fraction of my spare time on personal programming projects, out of personal passion, eager to demonstrate my ability, curiosity, altruism, artistic pursuit, and as a relaxing activity. Most of my works on GitHub are done independently. My topic of interest include rendering and visualization, geometry processing, image and signal processing, and physical simulation and control. I mostly code in C++ and Python, but I also use JavaScript for web applications.
 
 ## I'm currently working on
 
-Summer research projects at the [Flight Simulation and Control Lab](https://www.flight.utias.utoronto.ca/fsc/)
- - One project focuses on control for racing quadrotors, where I implemented an [MPCC controller](https://arxiv.org/abs/2108.13205) and am working on improving it
- - Another study focuses on human-robot interaction, which involves designing experiments and analyzing data
+School design team about robotics control
 
-Adaptive 3D mesh generation from implicit surfaces: `https://harry7557558.github.io/spirulae/meshgen3/`
+[Adaptive 3D mesh generation from implicit surfaces](https://harry7557558.github.io/spirulae/meshgen3/)
 
-Make a GUI for this [2D to 3D converter](https://github.com/harry7557558/Graphics/blob/master/simulation/fem/wasm_test/main_inflate_img.cpp)
+[2D to 3D converter](https://harry7557558.github.io/Graphics/modeling/img23d/)
 
 Attempt to denoise path-traced images and run it in a web browser: [what I have so far](https://github.com/harry7557558/Graphics/blob/master/image/denoise/implicit3-alpha-field-perceptual-train.ipynb)
 

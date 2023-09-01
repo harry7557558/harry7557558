@@ -9,11 +9,11 @@ and its [series](https://harry7557558.github.io/spirulae/),
 projects from my [grade 12 🔮](https://harry7557558.github.io/AVI4M-ISP/index.html)
 and [grade 11 👀](https://harry7557558.github.io/Graphics/UI/Homework/AVI3M/index.html) art courses in high school,
 my [shaders](https://harry7557558.github.io/shadertoy/index.html)
-and [Desmos graphs](https://harry7557558.github.io/desmos/index.html),
-and this [volume rendering demo](https://harry7557558.github.io/Graphics/raytracing/webgl_volume/index.html) 💀.
+and [Desmos graphs](https://harry7557558.github.io/desmos/index.html) 📈,
+and this [volume rendering demo](https://harry7557558.github.io/Graphics/raytracing/webgl_volume/index.html) 🧠.
 
 Stuffs you may find **helpful** 👍 include
-[the first one in the cool stuff list](https://harry7557558.github.io/spirulae/)
+[the first one in the cool stuff list 🦑](https://harry7557558.github.io/spirulae/)
 and the [3D matrix visualizer 📐](https://harry7557558.github.io/tools/matrixv.html).
 Tools that I personally use the most often are
 the [MathJax tester](https://harry7557558.github.io/tools/mathjaxt.html),
@@ -22,7 +22,7 @@ and this [color picker](https://harry7557558.github.io/tools/colorpicker.html).
 Another "worth mention" is this
 [chemical equation balancer 🧪](https://harry7557558.github.io/tools/chemequ.html).
 
-Two cool repositories of mine are
+Two cool 🤩 repositories of mine are
 [Spirulae graphing calculator 🐚](https://github.com/harry7557558/spirulae) and
 [SVG to Desmos 🎨](https://github.com/harry7557558/svg-to-desmos).
 The [Graphics](https://github.com/harry7557558/Graphics) repository is a collection of
