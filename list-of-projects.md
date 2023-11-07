@@ -1,18 +1,16 @@
 # List of My Personal Projects
 
-*Last updated: August 31th, 2023*
+*Last updated: November 6th, 2023*
 
-Here is a document I created to track and showcase my personal projects. I spent a large fraction of my spare time on personal programming projects, out of personal passion, eager to demonstrate my ability, curiosity, altruism, artistic pursuit, and as a relaxing activity. Most of my works on GitHub are done independently. My topic of interest include rendering and visualization, geometry processing, image and signal processing, and physical simulation and control. I mostly code in C++ and Python, but I also use JavaScript for web applications.
+Here is a document I created to track and showcase my personal projects. As a [kid from an alien planet](https://en.wikipedia.org/wiki/Asperger_syndrome), I spent a majority of my spare time on personal programming projects as a [surrogate activity](https://books.google.ca/books?id=ckfJEAAAQBAJ&pg=PT19&lpg=PT19). Almost all works on my GitHub are done independently. My topic of interest include rendering and visualization, geometry processing, image and signal processing, and physical simulation and control. I mostly code in C++ and Python, and sometimes JavaScript for web applications.
 
 ## I'm currently working on
 
-School design team about robotics control
+Director of a school project on denoising path-traced images using deep learning and running real-time rendering in a web browser;
 
-[Adaptive 3D mesh generation from implicit surfaces](https://harry7557558.github.io/spirulae/meshgen3/)
+School design team about robotics control;
 
-[2D to 3D converter](https://harry7557558.github.io/Graphics/modeling/img23d/)
-
-Attempt to denoise path-traced images and run it in a web browser: [what I have so far](https://github.com/harry7557558/Graphics/blob/master/image/denoise/implicit3-alpha-field-perceptual-train.ipynb)
+~~A list of large projects~~ I changed my strategy to keeping a list of big and small projects in parallel, and I use a random number generator to pick a project to work on when I have spare time, so I don't get stuck and bored in one project.
 
 # Other Platforms
 
@@ -23,13 +21,13 @@ List of my Shadertoy shaders: https://harry7557558.github.io/shadertoy/index.htm
 
 # Art and Rendering
 
-## Spirulae Online Function Grapher (March 2022 - May 2022; October 2022; March 2023 - May 2023)
+## Spirulae Online Function Grapher (March 2022 - present)
 
-https://harry7557558.github.io/spirulae/
+https://spirulae.github.io/
 
 ![](./list-of-projects-src/a8fe16b5e90d81b7daefde4607211e4a.jpg)
 
-I was inspired by raymarching demos on Shadertoy to create a WebGL online graphing calculator for 3D implicit surfaces. I implemented an equation parser based on the Shunting-Yard algorithm that supports defining custom variables and functions. The parser generates code for a GLSL function with automatic differentiation, which is visualized by raymarching in screen space. I also independently developed a regression-based anti-aliasing technique. The function grapher was heavily updated in October 2022 to include complex arithmetic, a formula for fast gradient estimation that I derived, and improved mobile compatibility.
+I was inspired by raymarching demos on Shadertoy to create a WebGL online graphing calculator for 3D implicit surfaces, and I have been working on it constantly. Currently, spirulae has a 3D implicit surface grapher, a 3D parametric surface grapher, a path tracer, 2D and 3D complex function graphers, mesh generators, a vector field grapher, and robust equation parsing with support for custom variables and functions.
 
 ## “Man of La Mancha” Media Project (May 2022)
 
@@ -83,6 +81,12 @@ I created an animation for a high school art project and rendered it using ray t
 
 
 # Geometry Processing
+
+## Mesh Decimation for Marching Cubes (October 2023)
+
+https://harry7557558.github.io/spirulae/meshgen3
+
+Adaptive marching cubes; Error quadrics, face and edge costs, valence balance; Segment tree; Guarantee Euler characteristics 
 
 ## 2D to 3D Converter (April 2023)
 
@@ -203,12 +207,6 @@ I tried to fit Wolfram colormap functions and export them to personal projects. 
 https://github.com/harry7557558/Graphics/tree/master/fitting/parametric2bezier
 
 I tried to fit Bézier splines to mathematical parametric curves without too many pieces. I researched, implemented, and compared techniques for finding the distance from a point to a cubic Bézier spline. I initially fit the curve with Gaussian quadrature and linear least squares. I later wrote code to discretize the parametric curve with the handling for different types of singularities, while minimizing the number of curve samples.
-
-## Ellipse Fitting Experiments (June 2020)
-
-https://github.com/harry7557558/Graphics/tree/master/fitting/old
-
-I derived analytical solutions to least squares fitting to 2D points for lines and circles but faced challenges for ellipses. I formulated several generalized eigenvalue problems as biased solutions and compared them with a quasi-Newton solution based on exact ellipse distance. I wrote anti-aliased rendering in C++ from scratch to visualize the results.
 
 
 # Applications
