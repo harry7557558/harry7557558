@@ -1,16 +1,18 @@
 # List of My Personal Projects
 
-*Last updated: November 6th, 2023*
+*Last updated: November 27th, 2023*
 
-Here is a document I created to track and showcase my personal projects. As a [kid from an alien planet](https://en.wikipedia.org/wiki/Asperger_syndrome), I spent a majority of my spare time on personal programming projects as a [surrogate activity](https://books.google.ca/books?id=ckfJEAAAQBAJ&pg=PT19&lpg=PT19). Almost all works on my GitHub are done independently. My topic of interest include rendering and visualization, geometry processing, image and signal processing, and physical simulation and control. I mostly code in C++ and Python, and sometimes JavaScript for web applications.
+Here is a document I created to track and showcase my personal projects. As a [kid from an alien planet](https://en.wikipedia.org/wiki/Asperger_syndrome), I spent a large fraction of my spare time on personal programming projects as a [surrogate activity](https://books.google.ca/books?id=ckfJEAAAQBAJ&pg=PT19&lpg=PT19). Almost all works on my GitHub are done independently. My topic of interest include rendering and visualization, geometry processing, image and signal processing, and physical simulation and control. I mostly code in C++ and Python, but I also enjoy creating web applications for good platform compatibility.
 
 ## I'm currently working on
 
-Director of a school project on denoising path-traced images using deep learning and running real-time rendering in a web browser;
+Director of a school project on denoising path-traced images using deep learning and running real-time rendering in web browsers;
 
-School design team about robotics control;
+School design team about control for drone racing;
 
-~~A list of large projects~~ I changed my strategy to keeping a list of big and small projects in parallel, and I use a random number generator to pick a project to work on when I have spare time, so I don't get stuck and bored in one project.
+~~A list of large projects~~ I changed my strategy to keeping a list of big and small projects in parallel, and I use a random number generator to pick a project to work on when I have spare time, so I don't get stuck and bored in one project;
+
+Necessities like busy second-year undergraduate engineering academics, etc.
 
 # Other Platforms
 
@@ -21,9 +23,9 @@ List of my Shadertoy shaders: https://harry7557558.github.io/shadertoy/index.htm
 
 # Art and Rendering
 
-## Spirulae Online Function Grapher (March 2022 - present)
+## Spirulae Online Function Grapher (March 2022, August 2022 - present)
 
-https://spirulae.github.io/
+https://spirulae.github.io/ ([gallery of unfiltered images](https://spirulae.github.io/gallery))
 
 ![](./list-of-projects-src/a8fe16b5e90d81b7daefde4607211e4a.jpg)
 
@@ -67,40 +69,39 @@ https://harry7557558.github.io/Graphics/UI/Homework/AVI3M/index.html
 
 I generated 3D renderings of an eye model for a high school art project. The model was an implicit surface triangulated by the marching cube method, and I merged vertices that are too close with the help of the disjoint set data structure. I implemented Monte Carlo path tracing for rendering and played with specular, refractive, and glossy materials. I received a perfect score on this project.
 
-## 2D Light Transport Simulation (March 2020)
-
-https://github.com/harry7557558/Graphics/tree/master/raytracing/light2d
-
-I implemented Monte-Carlo path tracing with stratified sampling to simulate light transport in 2D, and I tested it on scenes composed of refractive glass objects and light sources. My C++ code was capable of loading objects from SVG images, calculating analytical intersection to cubic Bézier curves, and determining whether a point is within a shape enclosed by Bézier splines.
-
 ## “The Glass” (May 2019)
 
 https://github.com/harry7557558/Ray-Tracing
 
-I created an animation for a high school art project and rendered it using ray tracing. I learned about matrix and vector algebra and object-oriented programming in C++. I also did motion capture using a cell phone camera.
+I created an animation for a high school art project and rendered it using ray tracing. I learned about matrix and vector algebra and object-oriented programming in C++. I also interpolated motion captured values using Fourier series.
 
 
 # Geometry Processing
+
+## 2D to 3D Converter (April 2023, November 2023)
+
+https://harry7557558.github.io/Graphics/modeling/img23d/
+
+![](./list-of-projects-src/0de32173bf9f644efc3ae0c29504c12b.jpg)
+
+• Trying to make a tool to inflate 2D images into 3D models after reading [Baran & Lehtinen's “Notes on inflating curves”](https://www.alecjacobson.com/weblog/?p=4613)  
+• C++ code with mesh generation and numerically solving the Poisson equation, with command line and web interfaces
 
 ## Mesh Decimation for Marching Cubes (October 2023)
 
 https://harry7557558.github.io/spirulae/meshgen3
 
-Adaptive marching cubes; Error quadrics, face and edge costs, valence balance; Segment tree; Guarantee Euler characteristics 
+![](./list-of-projects-src/d661d251f6677c0974f945b67ffde433.jpg)
 
-## 2D to 3D Converter (April 2023)
-
-https://github.com/harry7557558/Graphics/tree/master/modeling/png2obj
-
-Generate mesh -> solve $\nabla^2 h+4=0$ subject to zero boundary condition -> reconstruct surface $x^2+y^2=h$
-
-![](./list-of-projects-src/ac064a10896c0542cc74a4a04dea7ac6.jpg)
+• Intended to export [spirulae](https://spirulae.github.io) graphs into 3D models compatible with 3D modeling and animation software  
+• Techniques: octree-based marching cubes; error quadrics, face and edge costs, valence balance; segment tree  
+• Features: real-time dense marching cubes mesh, adaptive mesh with accurate Euler characteristics
 
 ## Implicit Mesh Smoothing Experiment (February 2022)
 
 https://github.com/harry7557558/Graphics/tree/master/simulation/heatequ
 
-Laplacian and Taubin smoothing; Finite difference method; Conjugate gradient and BiCGSTAB;
+Laplacian and Taubin smoothing; Finite difference method; Implicit method with conjugate gradient solver;
 
 ## Adaptive Parametric Surface Triangulation (December 2020)
 
@@ -119,12 +120,6 @@ https://github.com/harry7557558/Graphics/tree/master/simulation/fem/statics_le
 ![](./list-of-projects-src/7065d7e990c4e327aa6370b58188417f.jpg)
 
 I experimented with solving 3D trusses using the stiffness method after learning about trusses in university, and I soon moved to write C++ code from scratch to analyze stress and deflection in solids. I researched strain and stress formulations, experimented with linear and quadratic tetrahedral elements of various shapes, different preconditioners for the conjugate gradient method, and mesh generation from implicit objects. I also implemented an OpenGL GUI to visualize results.
-
-## CIV102 Bridge Project (November 2022)
-
-https://github.com/harry7557558/engsci-2t6/tree/master/civ102-project
-
-This is my project for the CIV102 course that requires designing and building a matboard paper bridge to support the highest load. I wrote Python code and implemented coordinate compression for integrating piecewise polynomials, which was used to analyze the bending moment and shear profile in a beam. I used the rectpack package to set constraints to make sure all components can fit into the given matboard. I optimized the bridge using simulated annealing modified to consider gradient estimate. I built the physical bridge based on the design in a team of 3 members.
 
 ## Rigid Body Balancing (November 2020)
 
@@ -158,11 +153,13 @@ I tried the Smoothed Particle Hydrodynamics (SPH) method for simulating 2D and 3
 
 # Deep Learning
 
-## GAN Neural Network (July 2022)
+## GAN Neural Network (July 2022, November 2023)
 
-https://harry7557558.github.io/Graphics/fitting/dcgan/ffhq_convtrans/webgl/index.html
+https://harry7557558.github.io/Graphics/fitting/dcgan/ffhq_convtrans_vae_2/webgl/
 
-I implemented a GAN neural network in PyTorch and trained it on the FFHQ face database. I manually exported it to a webpage, which loads binary weights into WebGL. I derived a mapping function that results in a uniform distribution when applied to linearly interpolated noise and used it to keep the diversity of faces in animation.
+![](./list-of-projects-src/4d14eb9fd4bc6d591034639121f1a77b.jpg)
+
+I implemented a GAN neural network in PyTorch with a variational autoencoder and trained it on the FFHQ face database. I created a webpage that renders animated face transitions in real time, which inferences the model by loading binary weights into WebGL. I derived a mapping function that results in a uniform distribution when applied to linearly interpolated noise and used it to keep the diversity of faces in animation.
 
 
 ## Neural Network Written from Scratch (April 2022)
@@ -192,7 +189,7 @@ https://github.com/harry7557558/Graphics/tree/master/modeling/procedural/noise_s
 I tried to normalize noises used in procedural modeling to a fixed mean and variance on values and gradients. To simplify work and overcome the speed issue with SymPy, I implemented a Python class for the product of polynomials and trigonometric series that supports symbolic summation, multiplication, differentiation, and integration. I used it to compute the analytical variance of several noises and their gradients and validated my results using quasi-Monte Carlo simulation in C++.
 
 
-# Numerical Optimization
+# Curve Fitting
 
 ## Color Function Fitting (May 2021)
 
@@ -223,13 +220,9 @@ I wrote an online tool to visualize transformation matrices in computer graphics
 
 https://github.com/harry7557558/Graphics/blob/master/UI/ply_viewer.cpp
 
-I created a 3D model viewer for personal use and maintained it for more than one year. It is based on Win32 GUI with software rasterization. It implements different shading modes, restoring the connectivity of STL models, and calculating physical quantities like the center of mass and inertia tensor using the divergence theorem.
+![](./list-of-projects-src/d1e025743dc363336d7dcbbd62ce70eb.jpg)
 
-## ASM2O Cumulative Performance Task (April 2020 - May 2020)
-
-https://github.com/harry7557558/Graphics/tree/master/UI/Homework/ASM2O
-
-For this high school art project, I implemented a 3D stick figure animation engine based on Win32 GUI that supports inserting, editing, and removing keyframes for each node.
+I created a Windows 3D model viewer for personal use and maintained it for more than one year. It is based on Win32 GUI with software rasterization. It implements different shading modes, restoring the connectivity of STL models using disjoint set data structure, and calculating physical quantities like the center of mass and inertia tensor using the divergence theorem.
 
 ## Chemical Equation Balancer (November 2019)
 
@@ -237,4 +230,4 @@ https://harry7557558.github.io/tools/chemequ.html
 
 ![](./list-of-projects-src/3f108e82013ec1a6d5706deb1260271a.jpg)
 
-I learned the solution to homogeneous linear systems and applied it to balancing chemical equations. I implemented a chemical equation parser in JavaScript, a rational number class, and a Gaussian elimination solver. I applied integer congruence properties to find multiple solutions for linear systems with a solution space rank higher than 1.
+I learned the solution to homogeneous linear systems and applied it to balancing chemical equations. I implemented a chemical equation parser in JavaScript, a rational number class, and a Gaussian elimination solver. I applied integer congruence properties to find multiple rational solutions for linear systems with a nonzero solution space rank.
