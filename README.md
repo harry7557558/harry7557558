@@ -5,12 +5,12 @@ This README is intended to be a guide for you to browse [my stuff 🧐](./list-o
 
 My **cool** 😎 stuffs include the
 [3D implicit surface grapher 🐙](https://harry7557558.github.io/spirulae/implicit3/)
-and its [series](https://harry7557558.github.io/spirulae/),
-projects from my [grade 12 🔮](https://harry7557558.github.io/AVI4M-ISP/index.html)
-and [grade 11 👀](https://harry7557558.github.io/Graphics/UI/Homework/AVI3M/index.html) art courses in high school,
-my [shaders](https://harry7557558.github.io/shadertoy/index.html)
-and [Desmos graphs](https://harry7557558.github.io/desmos/index.html) 📈,
-and this [volume rendering demo](https://harry7557558.github.io/Graphics/raytracing/webgl_volume/index.html) 🧠.
+and its [series](https://harry7557558.github.io/spirulae/), the tool that turns [2D images into 3D models 🦀](https://harry7557558.github.io/img23d/),
+projects from my [grade 12 🔮](https://harry7557558.github.io/AVI4M-ISP/)
+and [grade 11 👀](https://harry7557558.github.io/Graphics/UI/Homework/AVI3M/) art courses in high school,
+my [shaders](https://harry7557558.github.io/shadertoy/)
+and [Desmos graphs](https://harry7557558.github.io/desmos/) 📈,
+and this [volume rendering demo](https://harry7557558.github.io/Graphics/raytracing/webgl_volume/) 🧠.
 
 Stuffs you may find **helpful** 👍 include
 [the first one in the cool stuff list 🦑](https://harry7557558.github.io/spirulae/)

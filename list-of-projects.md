@@ -1,6 +1,6 @@
 # List of My Personal Projects
 
-*Last updated: November 27th, 2023*
+*Last updated: December 17th, 2023*
 
 Here is a document I created to track and showcase my personal projects. As a [kid from an alien planet](https://en.wikipedia.org/wiki/Asperger_syndrome), I spent a large fraction of my spare time on personal programming projects as a [surrogate activity](https://books.google.ca/books?id=ckfJEAAAQBAJ&pg=PT19&lpg=PT19). Almost all works on my GitHub are done independently. My topic of interest include rendering and visualization, geometry processing, image and signal processing, and physical simulation and control. I mostly code in C++ and Python, but I also enjoy creating web applications for good platform compatibility.
 
@@ -10,15 +10,15 @@ Director of a school project on denoising path-traced images using deep learning
 
 School design team about control for drone racing;
 
-~~A list of large projects~~ I changed my strategy to keeping a list of big and small projects in parallel, and I use a random number generator to pick a project to work on when I have spare time, so I don't get stuck and bored in one project;
+Inflating 2D images into 3D models: currently solves Poisson's equation, trying to find other formulations that fixes minor issues;
 
 Necessities like busy second-year undergraduate engineering academics, etc.
 
 # Other Platforms
 
-List of my Desmos graphs: https://harry7557558.github.io/desmos/index.html
+List of my Desmos graphs: https://harry7557558.github.io/desmos/
 
-List of my Shadertoy shaders: https://harry7557558.github.io/shadertoy/index.html
+List of my Shadertoy shaders: https://harry7557558.github.io/shadertoy/
 
 
 # Art and Rendering
@@ -33,7 +33,7 @@ I was inspired by raymarching demos on Shadertoy to create a WebGL online graphi
 
 ## “Man of La Mancha” Media Project (May 2022)
 
-https://harry7557558.github.io/art/molm/index.html
+https://harry7557558.github.io/art/molm/
 
 ![](./list-of-projects-src/3630cfacf81862b858cf72c9af805c1d.jpg)
 
@@ -41,7 +41,7 @@ I made this artwork for a high school English course. I procedurally modeled sev
 
 ## AVI4M Independent Study Project (November 2021 - January 2022)
 
-https://harry7557558.github.io/AVI4M-ISP/index.html
+https://harry7557558.github.io/AVI4M-ISP/
 
 ![](./list-of-projects-src/9fa6c63aadf0696ea84c497072a2ae17.jpg)
 
@@ -49,7 +49,7 @@ I created this project for a high school art course. I developed an SDF visualiz
 
 ## Volume Rendering Demo (October 2021)
 
-https://harry7557558.github.io/Graphics/raytracing/webgl_volume/index.html
+https://harry7557558.github.io/Graphics/raytracing/webgl_volume/
 
 ![](./list-of-projects-src/b3e9e1c320d6ba508d0d1ddd4c1d2c77.jpg)
 
@@ -57,13 +57,13 @@ I played with volume rendering of medical imaging datasets in WebGL 2. I process
 
 ## IdentiEgg (July 2021)
 
-https://harry7557558.github.io/art/dyed-egg/index.html
+https://harry7557558.github.io/art/dyed-egg/
 
 I was inspired by WordPress identicon to generate identicon eggs. To make the shapes of the eggs match real-world eggs, I traced real-world eggs, fitted them to a linear least squares model, and plotted the parameter points in R³. I noticed the parameters are within an ellipsoid, so I applied principal component analysis to find the equation of the ellipsoid and derived an equation to generate uniformly distributed points in it without rejection sampling. I wrote code to minimize the height of the center of mass of eggs so they can be physically rested on a plane.
 
 ## “In Your Eyes” Art Project (December 2020)
 
-https://harry7557558.github.io/Graphics/UI/Homework/AVI3M/index.html
+https://harry7557558.github.io/Graphics/UI/Homework/AVI3M/
 
 ![](./list-of-projects-src/bd1e9c662fd8ad5eab61985ac9ae3ff4.jpg)
 
@@ -80,7 +80,7 @@ I created an animation for a high school art project and rendered it using ray t
 
 ## 2D to 3D Converter (April 2023, November 2023)
 
-https://harry7557558.github.io/Graphics/modeling/img23d/
+https://harry7557558.github.io/img23d/
 
 ![](./list-of-projects-src/0de32173bf9f644efc3ae0c29504c12b.jpg)
 
@@ -132,7 +132,7 @@ I tried to find ways to place a rigid body on a plane to minimize the height of 
 
 ## Stable Fluids (August 2022 - September 2022)
 
-https://harry7557558.github.io/Graphics/simulation/fluid_grid/jacobi_pressure/index.html
+https://harry7557558.github.io/Graphics/simulation/fluid_grid/jacobi_pressure/
 
 ![](./list-of-projects-src/777475f9d08a829ca51e8a04f2e52bb7.jpg)
 
