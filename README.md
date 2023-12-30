@@ -1,39 +1,44 @@
-Hello 👋 this is my GitHub profile.
-I'm a bit enslaved ⛓️ by **numerical techniques** including but not limited to **computer graphics**,
-and you can find a lot of works about these topics ~~written from scratch~~ on my GitHub.
-This README is intended to be a guide for you to browse [my stuff 🧐](./list-of-projects.md).
+Hello 👋 welcome to my GitHub profile. About me:
+ - My preferred name is Harry. `harry7557558` almost everywhere.
+ - I'm a bit enslaved ⛓️ by **numerical techniques** not limited to those in **computer graphics**.
+ - Most used languages (holistically): C++ 💻, Python 🐍, JS/HTML/CSS 🌐, GLSL, MATLAB
+ - Most used libraries: OpenGL/WebGL 🎨, PyTorch 🔥, NumPy/SciPy/Matplotlib 📊, ~~Eigen/OpenCV/ROS~~ (👀) Wanna learn: Taichi ☯️, Vulkan 🟥
+ - Favorite color: blue 💙, especially light blue refractive/transluscent crystal (greenish or purplish)
+ - Favorite animal: nautilus? jellyfish? conch? Must be some sea 🌊 creature not too large in size
+ - Had been an [outsider coder](https://en.wikipedia.org/wiki/Outsider_art) for years, really hope I'm still one.
 
-My **cool** 😎 stuffs include the
-[3D implicit surface grapher 🐙](https://harry7557558.github.io/spirulae/implicit3/)
-and its [series](https://harry7557558.github.io/spirulae/), the tool that turns [2D images into 3D models 🦀](https://harry7557558.github.io/img23d/),
-projects from my [grade 12 🔮](https://harry7557558.github.io/AVI4M-ISP/)
-and [grade 11 👀](https://harry7557558.github.io/Graphics/UI/Homework/AVI3M/) art courses in high school,
-my [shaders](https://harry7557558.github.io/shadertoy/)
-and [Desmos graphs](https://harry7557558.github.io/desmos/) 📈,
-and this [volume rendering demo](https://harry7557558.github.io/Graphics/raytracing/webgl_volume/) 🧠.
+----
 
-Stuffs you may find **helpful** 👍 include
-[the first one in the cool stuff list 🦑](https://harry7557558.github.io/spirulae/)
-and the [3D matrix visualizer 📐](https://harry7557558.github.io/tools/matrixv.html).
-Tools that I personally use the most often are
-the [MathJax tester](https://harry7557558.github.io/tools/mathjaxt.html),
-the [plain text equation typer](https://harry7557558.github.io/miscellaneous/text-tools/plaintext.html),
-and this [color picker](https://harry7557558.github.io/tools/colorpicker.html).
-Another "worth mention" is this
-[chemical equation balancer 🧪](https://harry7557558.github.io/tools/chemequ.html).
+Cool 😎 stuff I made:
 
-Two cool 🤩 repositories of mine are
-[Spirulae graphing calculator 🐚](https://github.com/harry7557558/spirulae) and
-[SVG to Desmos 🎨](https://github.com/harry7557558/svg-to-desmos).
-The [Graphics](https://github.com/harry7557558/Graphics) repository is a collection of
-my computer graphics and numerical algorithm experiments done over years 🤯.
-The [harry7557558.github.io](https://github.com/harry7557558/harry7557558.github.io) repository
-was created to share my stuff that I feel cool and/or useful (listed above) as well as others 👀.
-The [miscellaneous](https://github.com/harry7557558/miscellaneous) repository contains mainly
-scripts that I write to automate work and satisfy curiosity 🌎.
+[Spirulae](https://spirulae.github.io), web based graphing calculator that renders math equations
+ - [3D implicit surface grapher 🐙](https://spirulae.github.io/implicit3/)
+ - [3D parametric surface grapher 🐚](https://spirulae.github.io/paramsurf/)
+ - [2D](https://spirulae.github.io/complex/) and [3D](https://spirulae.github.io/complex3/) complex function graphers 🌈
+ - [2D](https://spirulae.github.io/meshgen2/) and [3D](https://spirulae.github.io/meshgen3/) mesh generation tools 🕸️
+ - [Path tracer](https://spirulae.github.io/implicit3-rt/) (power GPU required 🖥️)
 
-A list of things I've made and am working on can be found [here](./list-of-projects.md).
-Regardless of all the cool stuff listed above,
-not well known is the true identity of the entity behind all these 👁️. 
+[Tool that turns 2D images into 3D models 🦀](https://harry7557558.github.io/img23d/)
+
+[3D matrix visualizer 📐](https://harry7557558.github.io/tools/matrixv.html) | [SVG to Desmos 🖍️](https://github.com/harry7557558/svg-to-desmos) |
+[Chemical equation balancer 🧪](https://harry7557558.github.io/tools/chemequ.html) |
+[Color picker 🎨](https://harry7557558.github.io/tools/colorpicker.html)
+
+[Volume rendering 🧠](https://harry7557558.github.io/Graphics/raytracing/webgl_volume/) |
+[IdentiEgg 🥚](https://harry7557558.github.io/art/dyed-egg/) |
+[GAN 🥸](https://harry7557558.github.io/Graphics/fitting/dcgan/ffhq_convtrans_vae_2/webgl/) |
+[Ammonite 🦑](https://harry7557558.github.io/art/desmos-ammonite/) ||
+[Desmos 📈](https://harry7557558.github.io/desmos/) |
+[Shadertoy 🌅](https://harry7557558.github.io/shadertoy/)
+
+High school course projects:
+[grade 12 art 🔮](https://harry7557558.github.io/AVI4M-ISP/),
+[grade 11 art 👀](https://harry7557558.github.io/Graphics/UI/Homework/AVI3M/),
+~~[grade 12 English 👴](https://harry7557558.github.io/art/molm/)~~
+
+[List of personal projects, past and ongoing](./list-of-projects.md)
+
+-----
+
 One thing to note is that
 [**harry7557558**](https://harry7557558.github.io/) is not a "normal" human being 🤖😈🤒.
