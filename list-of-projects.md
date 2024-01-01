@@ -1,10 +1,10 @@
-# List of My Personal Projects
+# List of My Projects
 
-*Last updated: December 17th, 2023*
+*Last updated: December 31th, 2023*
 
-Here is a document I created to track and showcase my personal projects. As a [kid from an alien planet](https://en.wikipedia.org/wiki/Asperger_syndrome), I spent a large fraction of my spare time on personal programming projects as a [surrogate activity](https://books.google.ca/books?id=ckfJEAAAQBAJ&pg=PT19&lpg=PT19). Almost all works on my GitHub are done independently. My topic of interest include rendering and visualization, geometry processing, image and signal processing, and physical simulation and control. I mostly code in C++ and Python, but I also enjoy creating web applications for good platform compatibility.
+Here is a document I created to track and showcase my projects. As a [kid from an alien planet](https://en.wikipedia.org/wiki/Asperger_syndrome), I spent a large fraction of my spare time on personal programming projects as a [surrogate activity](https://books.google.ca/books?id=ckfJEAAAQBAJ&pg=PT19&lpg=PT19). Almost all works on my GitHub are done independently. My topic of interest include rendering and visualization, geometry processing, image and signal processing, and physical simulation and control. I value high performance in products, but I'm also inclined to solve problems in unconventional ways. I enjoy coding in C++ and Python, but I've also created a number web applications for convenience in sharing.
 
-## I'm currently working on
+## Currently Working On
 
 Director of a school project on denoising path-traced images using deep learning and running real-time rendering in web browsers;
 
@@ -12,9 +12,9 @@ School design team about control for drone racing;
 
 Inflating 2D images into 3D models: currently solves Poisson's equation, trying to find other formulations that fixes minor issues;
 
-Necessities like busy second-year undergraduate engineering academics, etc.
+Necessities like busy second-year undergraduate engineering academics.
 
-# Other Platforms
+## Other Platforms
 
 List of my Desmos graphs: https://harry7557558.github.io/desmos/
 
@@ -89,7 +89,7 @@ https://harry7557558.github.io/img23d/
 
 ## Mesh Decimation for Marching Cubes (October 2023)
 
-https://harry7557558.github.io/spirulae/meshgen3
+https://spirulae.github.io/meshgen3
 
 ![](./list-of-projects-src/d661d251f6677c0974f945b67ffde433.jpg)
 
