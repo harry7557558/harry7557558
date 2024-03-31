@@ -1,18 +1,29 @@
 # List of My Projects
 
-*Last updated: December 31th, 2023*
+*Last updated: March 30th, 2024*
 
-Here is a document I created to track and showcase my projects. As a [kid from an alien planet](https://en.wikipedia.org/wiki/Asperger_syndrome), I spent a large fraction of my spare time on personal programming projects as a [surrogate activity](https://books.google.ca/books?id=ckfJEAAAQBAJ&pg=PT19&lpg=PT19). Almost all works on my GitHub are done independently. My topic of interest include rendering and visualization, geometry processing, image and signal processing, and physical simulation and control. I value high performance in products, but I'm also inclined to solve problems in unconventional ways. I enjoy coding in C++ and Python, but I've also created a number web applications for convenience in sharing.
+Here is a document I created to track and showcase my projects. As a [kid from an alien planet](https://en.wikipedia.org/wiki/Asperger_syndrome), I spent a large fraction of my spare time on personal programming projects as a [surrogate activity](https://books.google.ca/books?id=ckfJEAAAQBAJ&pg=PT19&lpg=PT19). Almost all works on my GitHub are done independently. My topic of interest include rendering and visualization, geometry processing, computer vision, image and signal processing, and physical simulation and control. I value high performance in products, but I'm also inclined to solve problems in unconventional ways. I enjoy coding in C++ and Python, but I've also created a number web applications for convenience in sharing.
 
-## Currently Working On
+## Currently working on
 
 Director of a school project on denoising path-traced images using deep learning and running real-time rendering in web browsers;
 
-School design team about control for drone racing;
+School drone racing team, working on LiDAR SLAM and model-based control;
 
-Inflating 2D images into 3D models: currently solves Poisson's equation, trying to find other formulations that fixes minor issues;
+Miscellaneous personal projects that I don't get bored in (like those shown below);
 
 Necessities like busy second-year undergraduate engineering academics.
+
+### Stuck on
+
+Build a tool that turns phone camera videos into 3D models instantly and stably. Did lots of research but still struggling to write working code.
+ <!-- - Real-time visual SLAM vs. Offline SfM?
+ - Multi-view stereo vs. NeRF / Gaussian splatting?
+ - Image preprocessing (deblur, denoise): deep learning? -->
+
+Curve and surface fitting: Bezier/B-splines, NURBS, subdivision surfaces, etc. Stuck on getting a minimal number of pieces.
+<!-- Try to get accurate results with minimal number of pieces while not running too slow.
+ - Gauss-Newton optimization + some tricks to do geometric instead of parametric distance? Should get it working with some effort but just didn't get chances to try. -->
 
 ## Other Platforms
 

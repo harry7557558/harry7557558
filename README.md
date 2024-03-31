@@ -1,10 +1,10 @@
 Hello 👋 welcome to my GitHub profile. About me:
- - My preferred name is Harry. `harry7557558` almost everywhere.
+ - My preferred name is **Harry**. `harry7557558` almost everywhere.
  - I'm a bit enslaved ⛓️ by **numerical techniques** not limited to those in **computer graphics**.
- - Most-used **languages** (holistically): C++ 💻, Python 🐍, JS/HTML/CSS 🌐, GLSL, MATLAB
- - Most-used **libraries**: OpenGL/WebGL 🎨, PyTorch 🔥, NumPy/SciPy/Matplotlib 📊, ~~Eigen/OpenCV/ROS~~ (👀)
+ - Most-used **languages** (holistically): C++ 💻, Python 🐍, JS/HTML/CSS 🌐, GLSL, ~~MATLAB~~
+ - Most-used **libraries**: PyTorch 🔥, OpenGL/WebGL 🎨, NumPy/SciPy/Matplotlib 📊, ~~Eigen/OpenCV/ROS~~ (👀)
  - Wanna learn: Taichi ☯️, Vulkan 🟥, ~~WebGPU~~
- - ***Favorite color:*** blue 💙, especially light blue refractive/transluscent crystal (greenish or purplish).
+ - ***Favorite color:*** purplish blue 🔮💙, especially in the form of refractive/transluscent crystal.
  - ***Favorite animal:*** nautilus? jellyfish? conch? Must be some sea 🌊 creature not too large in size.
  - Had been an [outsider coder](https://en.wikipedia.org/wiki/Outsider_art) for years, really hope I'm still one.
 
@@ -15,9 +15,9 @@ Hello 👋 welcome to my GitHub profile. About me:
 [Spirulae](https://spirulae.github.io), web based graphing calculator that renders math equations
  - [3D implicit surface grapher 🐙](https://spirulae.github.io/implicit3/)
  - [3D parametric surface grapher 🐚](https://spirulae.github.io/paramsurf/)
+ - [Path tracer](https://spirulae.github.io/implicit3-rt/) (powerful GPU required 🖥️)
  - [2D](https://spirulae.github.io/complex/) and [3D](https://spirulae.github.io/complex3/) complex function graphers 🌈
  - [2D](https://spirulae.github.io/meshgen2/) and [3D](https://spirulae.github.io/meshgen3/) mesh generation tools 🕸️
- - [Path tracer](https://spirulae.github.io/implicit3-rt/) (powerful GPU required 🖥️)
 
 [Tool that turns 2D images into 3D models 🦀](https://harry7557558.github.io/img23d/)  
 
