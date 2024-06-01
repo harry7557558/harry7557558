@@ -1,29 +1,18 @@
 # List of My Projects
 
-*Last updated: March 30th, 2024*
+*Last updated: May 31st, 2024*
 
 Here is a document I created to track and showcase my projects. As a [kid from an alien planet](https://en.wikipedia.org/wiki/Asperger_syndrome), I spent a large fraction of my spare time on personal programming projects as a [surrogate activity](https://books.google.ca/books?id=ckfJEAAAQBAJ&pg=PT19&lpg=PT19). Almost all works on my GitHub are done independently. My topic of interest include rendering and visualization, geometry processing, computer vision, image and signal processing, and physical simulation and control. I value high performance in products, but I'm also inclined to solve problems in unconventional ways. I enjoy coding in C++ and Python, but I've also created a number web applications for convenience in sharing.
 
-## Currently working on
+## Currently Working On
 
-Director of a school project on denoising path-traced images using deep learning and running real-time rendering in web browsers;
+Research project on generating geometrically accurate radiance fields from multi-view images, focusing on minimal model size;
 
 School drone racing team, working on LiDAR SLAM and model-based control;
 
-Miscellaneous personal projects that I don't get bored in (like those shown below);
+Miscellaneous personal projects that I don't get bored in (like those shown below, and those you can find in my public repositories);
 
 Necessities like busy second-year undergraduate engineering academics.
-
-### Stuck on
-
-Build a tool that turns phone camera videos into 3D models instantly and stably. Did lots of research but still struggling to write working code.
- <!-- - Real-time visual SLAM vs. Offline SfM?
- - Multi-view stereo vs. NeRF / Gaussian splatting?
- - Image preprocessing (deblur, denoise): deep learning? -->
-
-Curve and surface fitting: Bezier/B-splines, NURBS, subdivision surfaces, etc. Stuck on getting a minimal number of pieces.
-<!-- Try to get accurate results with minimal number of pieces while not running too slow.
- - Gauss-Newton optimization + some tricks to do geometric instead of parametric distance? Should get it working with some effort but just didn't get chances to try. -->
 
 ## Other Platforms
 
@@ -89,7 +78,7 @@ I created an animation for a high school art project and rendered it using ray t
 
 # Geometry Processing
 
-## 2D to 3D Converter (April 2023, November 2023)
+## 2D to 3D Converter (April 2023, November 2023 - January 2024)
 
 https://harry7557558.github.io/img23d/
 
@@ -200,7 +189,7 @@ https://github.com/harry7557558/Graphics/tree/master/modeling/procedural/noise_s
 I tried to normalize noises used in procedural modeling to a fixed mean and variance on values and gradients. To simplify work and overcome the speed issue with SymPy, I implemented a Python class for the product of polynomials and trigonometric series that supports symbolic summation, multiplication, differentiation, and integration. I used it to compute the analytical variance of several noises and their gradients and validated my results using quasi-Monte Carlo simulation in C++.
 
 
-# Curve Fitting
+# Numerical Optimization
 
 ## Color Function Fitting (May 2021)
 
