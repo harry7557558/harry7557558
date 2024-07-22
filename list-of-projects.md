@@ -1,14 +1,14 @@
 # List of My Projects
 
-*Last updated: May 31st, 2024*
+*Last updated: June 21st, 2024*
 
-Here is a document I created to track and showcase my projects. As a [kid from an alien planet](https://en.wikipedia.org/wiki/Asperger_syndrome), I spent a large fraction of my spare time on personal programming projects as a [surrogate activity](https://books.google.ca/books?id=ckfJEAAAQBAJ&pg=PT19&lpg=PT19). Almost all works on my GitHub are done independently. My topic of interest include rendering and visualization, geometry processing, computer vision, image and signal processing, and physical simulation and control. I value high performance in products, but I'm also inclined to solve problems in unconventional ways. I enjoy coding in C++ and Python, but I've also created a number web applications for convenience in sharing.
+Here is a document I created to track and showcase my projects. As a [kid from an alien planet](https://en.wikipedia.org/wiki/Asperger_syndrome), I spent a large fraction of my spare time on personal programming projects as a [surrogate activity](https://books.google.ca/books?id=ckfJEAAAQBAJ&pg=PT19&lpg=PT19). Almost all works on my GitHub are done independently. My topic of interest include rendering and visualization, computer vision, geometry processing, image and signal processing, and physical simulation and control. I value high performance in my works, but I'm also inclined to solve problems in unconventional ways. I enjoy coding in C++ and Python, but I've also created a number of web applications for their accessibility.
 
 ## Currently Working On
 
 Research project on generating geometrically accurate radiance fields from multi-view images, focusing on minimal model size;
 
-School drone racing team, working on LiDAR SLAM and model-based control;
+Works in my school's drone racing team, covering wide range of topics including developing a photorealistic drone simulator, LiDAR SLAM, and model-based control;
 
 Miscellaneous personal projects that I don't get bored in (like those shown below, and those you can find in my public repositories);
 
@@ -112,7 +112,6 @@ Quadtree; Orthogonal approximation error; Tested on [artistic models](https://gi
 
 # Physics (static)
 
-
 ## Finite Element Analysis (December 2022 - February 2023)
 
 https://github.com/harry7557558/Graphics/tree/master/simulation/fem/statics_le
@@ -161,7 +160,6 @@ https://harry7557558.github.io/Graphics/fitting/dcgan/ffhq_convtrans_vae_2/webgl
 
 I implemented a GAN neural network in PyTorch with a variational autoencoder and trained it on the FFHQ face database. I created a webpage that renders animated face transitions in real time, which inferences the model by loading binary weights into WebGL. I derived a mapping function that results in a uniform distribution when applied to linearly interpolated noise and used it to keep the diversity of faces in animation.
 
-
 ## Neural Network Written from Scratch (April 2022)
 
 https://github.com/harry7557558/Graphics/tree/master/fitting
@@ -169,7 +167,6 @@ https://github.com/harry7557558/Graphics/tree/master/fitting
 ![](./list-of-projects-src/a8f8926baabc26c95540d802725bb889.jpg)
 
 I tried to implement neural networks in C++ from scratch to see if they can overperform machine learning frameworks. I implemented dense, convolutional, and RBF layers, and SGD, Adam, and BFGS optimizers. I generated a grid of SDF values from a polygon mesh using breast-first search and fitted it to a SIREN neural model. I improved the algorithm by using quasi-random sampled data points in mini-batch training. I did several tests with different random number seeds and found that compared to TensorFlow, my code achieved half of the loss in a quarter of the time on average.
-
 
 
 # Image and Signal Processing
@@ -208,6 +205,14 @@ I tried to fit Bézier splines to mathematical parametric curves without too man
 
 # Applications
 
+## Desmos to 3D Model (January 2024)
+
+https://github.com/harry7557558/desmos-to-3d-model
+
+![](./list-of-projects-src/015152b712fef0e6fce022c8a9635de0.jpg)
+
+Export graphs created in Desmos 3D Graphing Calculator to 3D models in formats like GLTF, OBJ, and STL that can be used for animation (eg. in Blender) and 3D printing.
+
 ## 3D Matrix Visualizer (July 2019, October 2022)
 
 https://harry7557558.github.io/tools/matrixv.html
@@ -231,3 +236,8 @@ https://harry7557558.github.io/tools/chemequ.html
 ![](./list-of-projects-src/3f108e82013ec1a6d5706deb1260271a.jpg)
 
 I learned the solution to homogeneous linear systems and applied it to balancing chemical equations. I implemented a chemical equation parser in JavaScript, a rational number class, and a Gaussian elimination solver. I applied integer congruence properties to find multiple rational solutions for linear systems with a nonzero solution space rank.
+
+
+# Academic Publications
+
+Not listed on this page (at least at this time considering I'm an undergraduate), but I'm pretty sure you can find out by stalking me hard enough.
