@@ -1,18 +1,18 @@
 # List of My Projects
 
-*Last updated: June 21st, 2024*
+*Last updated: September 29th, 2024*
 
-Here is a document I created to track and showcase my projects. As a [kid from an alien planet](https://en.wikipedia.org/wiki/Asperger_syndrome), I spent a large fraction of my spare time on personal programming projects as a [surrogate activity](https://books.google.ca/books?id=ckfJEAAAQBAJ&pg=PT19&lpg=PT19). Almost all works on my GitHub are done independently. My topic of interest include rendering and visualization, computer vision, geometry processing, image and signal processing, and physical simulation and control. I value high performance in my works, but I'm also inclined to solve problems in unconventional ways. I enjoy coding in C++ and Python, but I've also created a number of web applications for their accessibility.
+Here is a document I created to track and showcase my projects. As a [kid from an alien planet](https://en.wikipedia.org/wiki/Asperger_syndrome), I spent a large fraction of my spare time on personal programming projects as a [surrogate activity](https://books.google.ca/books?id=ckfJEAAAQBAJ&pg=PT19&lpg=PT19). Almost all works on my GitHub are done independently. My topics of interest include rendering and visualization, computer vision, geometry processing, image and signal processing, and physical simulation and control. I value high performance in my works, but I'm also inclined to solve problems in unconventional ways. I enjoy coding in C++ and Python, but I've also created a number of web applications for their accessibility.
 
 ## Currently Working On
 
 Research project on generating geometrically accurate radiance fields from multi-view images, focusing on minimal model size;
 
-Works in my school's drone racing team, covering wide range of topics including developing a photorealistic drone simulator, LiDAR SLAM, and model-based control;
+Works in my school's drone racing team, covering wide range of topics including developing a photorealistic drone simulator, model-based control, and simultaneous localization and mapping (SLAM);
 
 Miscellaneous personal projects that I don't get bored in (like those shown below, and those you can find in my public repositories);
 
-Necessities like busy second-year undergraduate engineering academics.
+Necessities like busy undergraduate engineering academics.
 
 ## Other Platforms
 
@@ -23,11 +23,11 @@ List of my Shadertoy shaders: https://harry7557558.github.io/shadertoy/
 
 # Art and Rendering
 
-## Spirulae Online Function Grapher (March 2022, August 2022 - present)
+## Spirulae Online Function Grapher (March 2022, August 2022 - Present)
 
 https://spirulae.github.io/ ([gallery of unfiltered images](https://spirulae.github.io/gallery))
 
-![](./list-of-projects-src/a8fe16b5e90d81b7daefde4607211e4a.jpg)
+![](./list-of-projects-src/d2bc53ed23f3f9273be6d360d9d37139.jpg)
 
 I was inspired by raymarching demos on Shadertoy to create a WebGL online graphing calculator for 3D implicit surfaces, and I have been working on it constantly. Currently, spirulae has a 3D implicit surface grapher, a 3D parametric surface grapher, a path tracer, 2D and 3D complex function graphers, mesh generators, a vector field grapher, and robust equation parsing with support for custom variables and functions.
 
@@ -129,7 +129,7 @@ I tried to find ways to place a rigid body on a plane to minimize the height of 
 
 # Physical Simulation
 
-## Stable Fluids (August 2022 - September 2022)
+## Stable Fluids (September 2022)
 
 https://harry7557558.github.io/Graphics/simulation/fluid_grid/jacobi_pressure/
 
@@ -152,7 +152,15 @@ I tried the Smoothed Particle Hydrodynamics (SPH) method for simulating 2D and 3
 
 # Deep Learning
 
-## GAN Neural Network (July 2022, November 2023)
+## Path Tracing Denoise (September 2023 - April 2024)
+
+https://spirulae.github.io/utmist-denoising/
+
+![](./list-of-projects-src/7f05e1a0049186e16757c32adc9f746f.jpg)
+
+My first professional collaborated project – Improving my [WebGL path tracer](https://spirulae.github.io/implicit3-rt) by incorporating deep learning denoising. We trained an U-Net model and wrote inference in WebGL, as well as adding more features to the path tracer to showcase our model's high generalizability to unseen cases. Our rendering and denoising run in real-time, achiving over 40 fps at 1024×768 resolution, completely inside a web browser.
+
+## Face Generator (July 2022, November 2023)
 
 https://harry7557558.github.io/Graphics/fitting/dcgan/ffhq_convtrans_vae_2/webgl/
 
@@ -187,6 +195,14 @@ I tried to normalize noises used in procedural modeling to a fixed mean and vari
 
 
 # Numerical Optimization
+
+## 3D Structure from Motion (April 2024 - July 2024)
+
+https://github.com/harry7557558/Graphics/tree/master/mapping/sfm_calibrated
+
+![](./list-of-projects-src/9d8a7499ed86d92cafe30556112694a3.jpg)
+
+Experimented with structure from motion (SfM) with videos captured with mobile cameras. Wrote Python/OpenCV script that select video frames based on amount of movement and motion blur, and incrementally add frames to a reconstructed scene. Experiemnted with techniques like feature detection and matching, optical flow, epipolar geometry, PnP, bundle adjustment, loop closure, etc. Each scene in the above image took 1-3 minutes to process. Demonstrated using recovered camera intrinsics, poses, and point cloud to train high-fidelity NeRF and Gaussian Splatting models.
 
 ## Color Function Fitting (May 2021)
 
@@ -240,4 +256,4 @@ I learned the solution to homogeneous linear systems and applied it to balancing
 
 # Academic Publications
 
-Not listed on this page (at least at this time considering I'm an undergraduate), but I'm pretty sure you can find out by stalking me hard enough.
+Not listed on this page – at least at this time considering I'm still an undergraduate student, but I'm pretty sure you can find my Google Scholar profile if you stalk me hard enough.

@@ -17,7 +17,7 @@ Hello 👋 welcome to my GitHub profile. About me:
  - [3D parametric surface grapher 🐚](https://spirulae.github.io/paramsurf/)
  - [Path tracer](https://spirulae.github.io/implicit3-rt/) (powerful GPU required 🖥️)
  - [2D](https://spirulae.github.io/complex/) and [3D](https://spirulae.github.io/complex3/) complex function graphers 🌈
- - [3D](https://spirulae.github.io/meshgen3/)and [2D](https://spirulae.github.io/meshgen2/) mesh generation tools 🕸️
+ - [3D](https://spirulae.github.io/meshgen3/) and [2D](https://spirulae.github.io/meshgen2/) mesh generation tools 🕸️
 
 [Tool that turns 2D images into 3D models 🦀](https://harry7557558.github.io/img23d/)  
 
