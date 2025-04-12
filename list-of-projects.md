@@ -1,14 +1,14 @@
 # List of My Projects
 
-*Last updated: September 29th, 2024*
+*Last updated: April 12, 2025*
 
-Here is a document I created to track and showcase my projects. As a [kid from an alien planet](https://en.wikipedia.org/wiki/Asperger_syndrome), I spent a large fraction of my spare time on personal programming projects as a [surrogate activity](https://books.google.ca/books?id=ckfJEAAAQBAJ&pg=PT19&lpg=PT19). Almost all works on my GitHub are done independently. My topics of interest include rendering and visualization, computer vision, geometry processing, image and signal processing, and physical simulation and control. I value high performance in my works, but I'm also inclined to solve problems in unconventional ways. I enjoy coding in C++ and Python, but I've also created a number of web applications for their accessibility.
+Here is a document I created to track and showcase my projects. As a [kid from an alien planet](https://en.wikipedia.org/wiki/Asperger_syndrome), I spent a large fraction of my spare time on personal programming projects as a [surrogate activity](https://books.google.ca/books?id=ckfJEAAAQBAJ&pg=PT19&lpg=PT19). Almost all works on my GitHub are done independently. My topics of interest include rendering and visualization, 3D computer vision, deep learning, geometry processing, image and signal processing, and physical simulation and control. I value high performance in my works, but I'm also inclined to solve problems in unconventional ways. I enjoy coding in C++ and Python, but I've also created a number of web applications for their accessibility.
 
 ## Currently Working On
 
-Research project on generating geometrically accurate radiance fields from multi-view images, focusing on minimal model size;
+Gaussian splatting, half a research project and half a personal project;
 
-Works in my school's drone racing team, covering wide range of topics including developing a photorealistic drone simulator, model-based control, and simultaneous localization and mapping (SLAM);
+Works in my school's drone racing team, covering wide range of topics including developing a photorealistic drone simulator, gate detection using deep learning, model-based reinforcement learning for control, and simultaneous localization and mapping (SLAM);
 
 Miscellaneous personal projects that I don't get bored in (like those shown below, and those you can find in my public repositories);
 
@@ -23,9 +23,9 @@ List of my Shadertoy shaders: https://harry7557558.github.io/shadertoy/
 
 # Art and Rendering
 
-## Spirulae Online Function Grapher (March 2022, August 2022 - Present)
+## Spirulae Online Function Grapher (March 2022, August 2022 - October 2024)
 
-https://spirulae.github.io/ ([gallery of unfiltered images](https://spirulae.github.io/gallery))
+https://spirulae.github.io/ ([gallery of unfiltered renderings](https://spirulae.github.io/gallery))
 
 ![](./list-of-projects-src/d2bc53ed23f3f9273be6d360d9d37139.jpg)
 
@@ -76,11 +76,33 @@ https://github.com/harry7557558/Ray-Tracing
 I created an animation for a high school art project and rendered it using ray tracing. I learned about matrix and vector algebra and object-oriented programming in C++. I also interpolated motion captured values using Fourier series.
 
 
+# 3D Reconstruction and View Synthesis
+
+## Gaussian Splatting (May 2024 - Present)
+
+https://github.com/harry7557558/spirulae-splat
+
+![](./list-of-projects-src/8e0e56eff52b929981a4ba59c57b36ef.jpg)
+
+As prompted by a research project I did in my university, I gave a try to Gaussian splatting to digitalize real-world objects and scenes. Initially forked from the splatfacto method in nerfstudio, I experimented with various additions like 2DGS, polynomial kernels, per-pixel sorting, batching, exposure correction, exact camera distortion, UV-dependent color, direction-dependent background, depth supervision, segmentation, etc.
+
+I ran my custom method on benchmark datasets, places around my school, and small objects. I made viewers running in browser, in Unity, and as a robot simulator that integrates with ROS. I tried effects like fisheye distortion, lighting effects, motion/defocus blur, and underwater. I also got good results by using it to generate synthetic data to train machine learning models.
+
+
+## 3D Structure from Motion (April 2024 - July 2024)
+
+https://github.com/harry7557558/Graphics/tree/master/mapping
+
+![](./list-of-projects-src/9d8a7499ed86d92cafe30556112694a3.jpg)
+
+Experimented with structure from motion (SfM) with videos captured with mobile cameras. Wrote Python/OpenCV script that select video frames based on amount of movement and motion blur, and incrementally add frames to a reconstructed scene. Experiemnted with techniques like feature detection and matching, optical flow, epipolar geometry, PnP, bundle adjustment, loop closure, etc. Each scene in the above image took 1-3 minutes to process. Demonstrated using recovered camera intrinsics, poses, and point cloud to train high-fidelity NeRF and Gaussian Splatting models.
+
+
 # Geometry Processing
 
 ## 2D to 3D Converter (April 2023, November 2023 - January 2024)
 
-https://harry7557558.github.io/img23d/
+https://harry7557558.github.io/img23d/ ([medium article](https://medium.com/@harry7557558/img23d-web-based-tool-that-turns-2d-images-into-3d-models-15c0d7382a08))
 
 ![](./list-of-projects-src/0de32173bf9f644efc3ae0c29504c12b.jpg)
 
@@ -152,6 +174,12 @@ I tried the Smoothed Particle Hydrodynamics (SPH) method for simulating 2D and 3
 
 # Deep Learning
 
+## Gate detection for Autonomous Drone Racing (November 2024 - April 2025)
+
+![](./list-of-projects-src/9bd4835c1eaea726ac9d63e14a5e8214.jpg)
+
+For my school design team, I developed a deep learning model that detects gates for autonomous drone racing. The model has YOLO-like outputs, involves CNN and attention in its architecture, and is trained on curated loss functions. Powered by large volume of synthetic data generated from Gaussian splatting, it can detect gates, assign ID to each detected gate, output corner points and depths with covariance, and directly output 6-DOF 3D pose between camera and gate with centimeter accuracy, across a range of camera intrinsics. With custom augmentation, the model works well in the presence of heavy shot noise, motion blur, and rolling shutter artifacts. For 1280x720 RGB images, model inference takes around 6.5ms on on a NVIDIA Jetson Orin 16GB.
+
 ## Path Tracing Denoise (September 2023 - April 2024)
 
 https://spirulae.github.io/utmist-denoising/
@@ -195,14 +223,6 @@ I tried to normalize noises used in procedural modeling to a fixed mean and vari
 
 
 # Numerical Optimization
-
-## 3D Structure from Motion (April 2024 - July 2024)
-
-https://github.com/harry7557558/Graphics/tree/master/mapping/sfm_calibrated
-
-![](./list-of-projects-src/9d8a7499ed86d92cafe30556112694a3.jpg)
-
-Experimented with structure from motion (SfM) with videos captured with mobile cameras. Wrote Python/OpenCV script that select video frames based on amount of movement and motion blur, and incrementally add frames to a reconstructed scene. Experiemnted with techniques like feature detection and matching, optical flow, epipolar geometry, PnP, bundle adjustment, loop closure, etc. Each scene in the above image took 1-3 minutes to process. Demonstrated using recovered camera intrinsics, poses, and point cloud to train high-fidelity NeRF and Gaussian Splatting models.
 
 ## Color Function Fitting (May 2021)
 
