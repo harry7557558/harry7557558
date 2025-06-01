@@ -1,9 +1,8 @@
 Hello 👋 welcome to my GitHub profile. About me:
  - My preferred name is **Harry**. `harry7557558` almost everywhere.
  - I'm a bit enslaved ⛓️ by **numerical techniques** not limited to those related to **computer graphics**.
- - Most-used **languages** (holistically): C++ 💻, Python 🐍, JS/HTML/CSS 🧑‍💻️, GLSL, ~~CUDA~~ (👀), ~~MATLAB 🧮~~
- - Most-used **libraries**: PyTorch 🔥, NumPy/SciPy/Matplotlib 📊, OpenGL/WebGL 🎨, ~~OpenCV/Eigen/ROS~~ (👀)
- - Wanna learn: WebGPU 🌐, Vulkan 🟥, Taichi ☯️, ~~calculating derivatives~~
+ - Most-used **languages** (holistically): Python 🐍, C++/CUDA 💻, GLSL/Slang ✨, JS/HTML/CSS 🧑‍💻️, ~~MATLAB 🧮~~
+ - Most-used **libraries**: PyTorch 🔥, NumPy/SciPy/Matplotlib 📊, Vulkan/OpenGL/WebGL 🎨, ~~OpenCV/Eigen/ROS~~ (👀)
  - ***Favorite color:*** purplish blue 🔮💙, especially in the form of refractive/transluscent crystal.
  - ***Favorite animal:*** nautilus? jellyfish? conch? Must be some sea 🌊 creature not too large in size.
  - Had been an [outsider coder](https://en.wikipedia.org/wiki/Outsider_art) for years, really hope I'm still one.

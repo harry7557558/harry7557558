@@ -1,18 +1,18 @@
 # List of My Projects
 
-*Last updated: April 12, 2025*
+*Last updated: May 31, 2025*
 
 Here is a document I created to track and showcase my projects. As a [kid from an alien planet](https://en.wikipedia.org/wiki/Asperger_syndrome), I spent a large fraction of my spare time on personal programming projects as a [surrogate activity](https://books.google.ca/books?id=ckfJEAAAQBAJ&pg=PT19&lpg=PT19). Almost all works on my GitHub are done independently. My topics of interest include rendering and visualization, 3D computer vision, deep learning, geometry processing, image and signal processing, and physical simulation and control. I value high performance in my works, but I'm also inclined to solve problems in unconventional ways. I enjoy coding in C++ and Python, but I've also created a number of web applications for their accessibility.
 
 ## Currently Working On
 
-Gaussian splatting, half a research project and half a personal project;
+Gaussian splatting, half a research project and half a personal project and half for job;
 
 Works in my school's drone racing team, covering wide range of topics including developing a photorealistic drone simulator, gate detection using deep learning, model-based reinforcement learning for control, and simultaneous localization and mapping (SLAM);
 
 Miscellaneous personal projects that I don't get bored in (like those shown below, and those you can find in my public repositories);
 
-Necessities like busy undergraduate engineering academics.
+~~Necessities like busy undergraduate engineering academics.~~ I'm finally on my CO-OP year!
 
 ## Other Platforms
 
@@ -21,7 +21,7 @@ List of my Desmos graphs: https://harry7557558.github.io/desmos/
 List of my Shadertoy shaders: https://harry7557558.github.io/shadertoy/
 
 
-# Art and Rendering
+# Rendering and Visual Art
 
 ## Spirulae Online Function Grapher (March 2022, August 2022 - October 2024)
 
@@ -87,7 +87,6 @@ https://github.com/harry7557558/spirulae-splat
 As prompted by a research project I did in my university, I gave a try to Gaussian splatting to digitalize real-world objects and scenes. Initially forked from the splatfacto method in nerfstudio, I experimented with various additions like 2DGS, polynomial kernels, per-pixel sorting, batching, exposure correction, exact camera distortion, UV-dependent color, direction-dependent background, depth supervision, segmentation, etc.
 
 I ran my custom method on benchmark datasets, places around my school, and small objects. I made viewers running in browser, in Unity, and as a robot simulator that integrates with ROS. I tried effects like fisheye distortion, lighting effects, motion/defocus blur, and underwater. I also got good results by using it to generate synthetic data to train machine learning models.
-
 
 ## 3D Structure from Motion (April 2024 - July 2024)
 
@@ -224,6 +223,10 @@ I tried to normalize noises used in procedural modeling to a fixed mean and vari
 
 # Numerical Optimization
 
+## Model Predictive Contouring Control (May 2023 - August 2023)
+
+For my school's design team, I implemented the quadrotor controller described in the paper [Model Predictive Contouring Control for Time-Optimal Quadrotor Flight](https://ieeexplore.ieee.org/document/9802523). The optimal controller is formulated as a constrained nonlinear optimization problem. I used Acados solver with CasADi for automatic differentiation. Miscellenous programming include arc-length parameterization of splines and integration with Gazebo simulator. I also proposed an original constraint to faciliate successful gate traversal.
+
 ## Color Function Fitting (May 2021)
 
 https://github.com/harry7557558/Graphics/tree/master/UI/color_functions
@@ -274,6 +277,12 @@ https://harry7557558.github.io/tools/chemequ.html
 I learned the solution to homogeneous linear systems and applied it to balancing chemical equations. I implemented a chemical equation parser in JavaScript, a rational number class, and a Gaussian elimination solver. I applied integer congruence properties to find multiple rational solutions for linear systems with a nonzero solution space rank.
 
 
+# Non-Programming Projects
+
+TODO &ndash; 
+Yes, I do have a list, must be something related to my [favorite colors and animals](https://github.com/harry7557558#user-profile-frame). Coming (probably) soon.
+
+
 # Academic Publications
 
-Not listed on this page – at least at this time considering I'm still an undergraduate student, but I'm pretty sure you can find my Google Scholar profile if you stalk me hard enough.
+Not listed on this page – considering I've realized I'm not a fan of choosing a research topic and working on stuff only to make reviewers happy. But I'm pretty sure you can find my Google Scholar profile if you stalk me hard enough.
